@@ -1,0 +1,221 @@
+{
+  "proyecto": "D'WILLY Ecommerce",
+  "version": 1,
+  "regla_imagenes": {
+    "principal": "orden 1",
+    "secundarias": "orden 2 y 3",
+    "no_mezclar_codigos": true
+  },
+  "productos": [
+    {
+      "codigo": "F35579",
+      "ean": "4060512030366",
+      "producto": "adidas Adissage Slides",
+      "color": "Dark Blue / Cloud White / Dark Blue",
+      "genero": "Unisex",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.com/kw/en/adissage-slides/F35579.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/F35579/F35579_01.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/2034762823bb4c7aab57a9ad016487c9_9366/F35579_01_standard.jpg",
+          "local_path": "artifacts/optimized/F35579/F35579_01.webp",
+          "sha256": "1bdf0efccf9c16b42084e92fa5bfd2e6ba1ce3a45bc699dee6c0fdac5c3cdac3"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/F35579/F35579_02.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/5636978918d14c71985ea9ad0165b37a_9366/F35579_02_standard_hover.jpg",
+          "local_path": "artifacts/optimized/F35579/F35579_02.webp",
+          "sha256": "a63ed2cbfaf74ce1a9a4b319c1cb055de2dc5c940f857ef75ef2404e91e2388d"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/F35579/F35579_03.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/23b6e56244c44cceaa1da9ad0162a446_9366/F35579_03_standard.jpg",
+          "local_path": "artifacts/optimized/F35579/F35579_03.webp",
+          "sha256": "59f6c550be22d7340d9689164ec8138cec2dcf7d3069f7dbd13aa239670d8636"
+        }
+      ]
+    },
+    {
+      "codigo": "KK4284",
+      "ean": null,
+      "producto": "adidas Response 2 Running Shoes",
+      "color": "Crystal White / Silver Metallic / Glow Purple",
+      "genero": "Mujer",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.com.tr/tr/response-2-kosu-ayakkabisi/KK4284.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/KK4284/KK4284_01.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/10977886b7c844dea334b0e351248892_9366/RESPONSE_2_KOSU_AYAKKABISI_Beyaz_KK4284_01_00_standard.jpg",
+          "local_path": "artifacts/optimized/KK4284/KK4284_01.webp",
+          "sha256": "c83d659755a04d607dd9ac07431c71d10a10bd007d2e29369b6a90f9a93b8558"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/KK4284/KK4284_02.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/9f9089f0de7342d1b0396de8fc24cc6d_9366/RESPONSE_2_KOSU_AYAKKABISI_Beyaz_KK4284_02_standard_hover.jpg",
+          "local_path": "artifacts/optimized/KK4284/KK4284_02.webp",
+          "sha256": "279be14ba0da5ca2be5657421ed65bc68843c7dacdddbebcb8e9ad29727fe8f2"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/KK4284/KK4284_03.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/182b9667e12740838ea92d540c3713aa_9366/RESPONSE_2_KOSU_AYAKKABISI_Beyaz_KK4284_03_standard.jpg",
+          "local_path": "artifacts/optimized/KK4284/KK4284_03.webp",
+          "sha256": "783fff3ac7bda70464df15f6b1bf818fea3beebfb8bcfa1ed732598b067e1c11"
+        }
+      ]
+    },
+    {
+      "codigo": "KI9173",
+      "ean": null,
+      "producto": "adidas Marvel Spider-Man VL Court 3.0 Shoes Children",
+      "color": "Core Black / Royal Blue / Violet",
+      "genero": "Niños",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.com/om/en/adidas-marvel-spider-man-vl-court-3.0-shoes-children/KI9173.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/KI9173/KI9173_01.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/9a4d4f6ca0ff4fe3b07eac1674e445ed_9366/KI9173_01_00_standard.jpg",
+          "local_path": "artifacts/optimized/KI9173/KI9173_01.webp",
+          "sha256": "30f70e332f758848008520ba83539889e0bdb7bf4e3f3aa088f1dd67fd9c30c6"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/KI9173/KI9173_02.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/da50c4cdc43a48d280aef78369337a92_9366/KI9173_02_standard_hover.jpg",
+          "local_path": "artifacts/optimized/KI9173/KI9173_02.webp",
+          "sha256": "aac164629ba818652317d77c45c1b147a0f7a615a7f6e6ef4cc0f04dd24c7876"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/KI9173/KI9173_03.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/bbbd6481b176463a84a6e96a9fc572e2_9366/KI9173_03_standard.jpg",
+          "local_path": "artifacts/optimized/KI9173/KI9173_03.webp",
+          "sha256": "af3ff6b5343df51a98f59e17e519b162695a9f5ba016bee165ddf97e37b9463b"
+        }
+      ]
+    },
+    {
+      "codigo": "JQ1448",
+      "ean": "4068804453145",
+      "producto": "adidas Dropset Control Training Shoes",
+      "color": "Core Black / Iron Metallic / Silver Metallic",
+      "genero": "Mujer / Training",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.co/tenis-de-entrenamiento-dropset-control/JQ1448.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/JQ1448/JQ1448_01.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/5e985c15b6b04b11a7c8c00f03df1d66_9366/tenis_de_entrenamiento_Dropset_Control_Negro_JQ1448_HM1.jpg",
+          "local_path": "artifacts/optimized/JQ1448/JQ1448_01.webp",
+          "sha256": "52ed099bae4b6cf1d9308446a579d17fecef14297b3bf6e7a567eae892bdbbb2"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/JQ1448/JQ1448_02.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/7187d6d969434e0c886b96ef3fdb6ac7_9366/tenis_de_entrenamiento_Dropset_Control_Negro_JQ1448_HM3_hover.jpg",
+          "local_path": "artifacts/optimized/JQ1448/JQ1448_02.webp",
+          "sha256": "072f6b2966138f5bf34cad6f1d8b7856520fbdd7a4448ad72a100a024c8b22fc"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/JQ1448/JQ1448_03.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/e6af89b90805493f94f9d71d79d8dee1_9366/tenis_de_entrenamiento_Dropset_Control_Negro_JQ1448_HM4.jpg",
+          "local_path": "artifacts/optimized/JQ1448/JQ1448_03.webp",
+          "sha256": "fcb89da39e98fdb22cadb1d310184d7eec1db437728eb291a56986afa3d40834"
+        }
+      ]
+    },
+    {
+      "codigo": "POR_CONFIRMAR",
+      "ean": "4068818828816",
+      "producto": "adidas Barreda XLG",
+      "color": "Off White / Core Black / Gum 3",
+      "genero": "Hombre",
+      "estado": "codigo_articulo_pendiente",
+      "fuente_producto": "https://www.otto.de/p/adidas-sportswear-barreda-sneaker-inspiriert-vom-design-des-adidas-samba-xlg-C2040631472/",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/BARREDA_XLG_EAN_4068818828816/BARREDA_XLG_EAN_4068818828816_01.webp",
+          "source_url": "https://i.otto.de/i/otto/1fa65e7b-70a8-5d14-ba9d-1ac0fcd77aac?fmt=jpg&h=1600&sm=clamp&upscale=true&w=1600",
+          "local_path": "artifacts/optimized/BARREDA_XLG_EAN_4068818828816/BARREDA_XLG_EAN_4068818828816_01.webp",
+          "sha256": "5ac266d95c3b50bdc1cc4ea0e4355a26624d8ec69a51ca523a2ac0c1f7c1f313"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/BARREDA_XLG_EAN_4068818828816/BARREDA_XLG_EAN_4068818828816_02.webp",
+          "source_url": "https://i.otto.de/i/otto/bfeeb1c9-eb7b-5545-a986-645e05c96cdb?fmt=jpg&h=1600&sm=clamp&upscale=true&w=1600",
+          "local_path": "artifacts/optimized/BARREDA_XLG_EAN_4068818828816/BARREDA_XLG_EAN_4068818828816_02.webp",
+          "sha256": "995b6ec1041ddaf83054afcdb6347ecc086d69752437e4f84b19e705d1fa11c9"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/BARREDA_XLG_EAN_4068818828816/BARREDA_XLG_EAN_4068818828816_03.webp",
+          "source_url": "https://i.otto.de/i/otto/e6ac06d0-9778-5eb3-ac52-a3da7e0264a3?fmt=jpg&h=1600&sm=clamp&upscale=true&w=1600",
+          "local_path": "artifacts/optimized/BARREDA_XLG_EAN_4068818828816/BARREDA_XLG_EAN_4068818828816_03.webp",
+          "sha256": "1503a00c3f8fb05c90f2889d9bb60dfb4e1797f9e3f581b00c1f54bf7919760f"
+        }
+      ]
+    },
+    {
+      "codigo": "JQ6920",
+      "ean": "4068812361968",
+      "producto": "adidas Ultrarun 5 TR Running Shoes",
+      "color": "Wonder Sage / Core Black / Dusky Orange",
+      "genero": "Hombre / Running",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.es/zapatilla-ultrarun-5-tr-running/JQ6920.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/JQ6920/JQ6920_01.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/44b8f4c1fa9044948d721459c58d050f_9366/Zapatilla_Ultrarun_5_TR_Running_Verde_JQ6920_HM1.jpg",
+          "local_path": "artifacts/optimized/JQ6920/JQ6920_01.webp",
+          "sha256": "ec75fbd0e9c4d8a171b243cb245370752e7011c5d30f4733bca5328423663d00"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/JQ6920/JQ6920_02.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/b2b42210ccf54bed8b5dd8245a7864ea_9366/Zapatilla_Ultrarun_5_TR_Running_Verde_JQ6920_HM3_hover.jpg",
+          "local_path": "artifacts/optimized/JQ6920/JQ6920_02.webp",
+          "sha256": "f697947d18bd85a28980e6a750a6b64a45cc76566d2e178c68a0ac6ba45357e9"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/artifacts/optimized/JQ6920/JQ6920_03.webp",
+          "source_url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/55537d63ab0f478ca519974e6a13f6ed_9366/Zapatilla_Ultrarun_5_TR_Running_Verde_JQ6920_HM4.jpg",
+          "local_path": "artifacts/optimized/JQ6920/JQ6920_03.webp",
+          "sha256": "4a0f9f490521c5d65ad4e31e92ddea6aa7ed138309b8e0f6f274bc098bebd90c"
+        }
+      ]
+    }
+  ]
+}

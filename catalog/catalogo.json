@@ -1,0 +1,167 @@
+{
+  "proyecto": "D'WILLY Ecommerce",
+  "version": 1,
+  "regla_imagenes": {
+    "principal": "orden 1",
+    "secundarias": "orden 2 y 3",
+    "no_mezclar_codigos": true
+  },
+  "productos": [
+    {
+      "codigo": "F35579",
+      "ean": "4060512030366",
+      "producto": "adidas Adissage Slides",
+      "color": "Dark Blue / Cloud White / Dark Blue",
+      "genero": "Unisex",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.com/kw/en/adissage-slides/F35579.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/2034762823bb4c7aab57a9ad016487c9_9366/F35579_01_standard.jpg"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/5636978918d14c71985ea9ad0165b37a_9366/F35579_02_standard_hover.jpg"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/23b6e56244c44cceaa1da9ad0162a446_9366/F35579_03_standard.jpg"
+        }
+      ]
+    },
+    {
+      "codigo": "KK4284",
+      "ean": null,
+      "producto": "adidas Response 2 Running Shoes",
+      "color": "Crystal White / Silver Metallic / Glow Purple",
+      "genero": "Mujer",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.com.tr/tr/response-2-kosu-ayakkabisi/KK4284.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/10977886b7c844dea334b0e351248892_9366/RESPONSE_2_KOSU_AYAKKABISI_Beyaz_KK4284_01_00_standard.jpg"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/9f9089f0de7342d1b0396de8fc24cc6d_9366/RESPONSE_2_KOSU_AYAKKABISI_Beyaz_KK4284_02_standard_hover.jpg"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/182b9667e12740838ea92d540c3713aa_9366/RESPONSE_2_KOSU_AYAKKABISI_Beyaz_KK4284_03_standard.jpg"
+        }
+      ]
+    },
+    {
+      "codigo": "KI9173",
+      "ean": null,
+      "producto": "adidas Marvel Spider-Man VL Court 3.0 Shoes Children",
+      "color": "Core Black / Royal Blue / Violet",
+      "genero": "Niños",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.com/om/en/adidas-marvel-spider-man-vl-court-3.0-shoes-children/KI9173.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/9a4d4f6ca0ff4fe3b07eac1674e445ed_9366/KI9173_01_00_standard.jpg"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/da50c4cdc43a48d280aef78369337a92_9366/KI9173_02_standard_hover.jpg"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/bbbd6481b176463a84a6e96a9fc572e2_9366/KI9173_03_standard.jpg"
+        }
+      ]
+    },
+    {
+      "codigo": "JQ1448",
+      "ean": "4068804453145",
+      "producto": "adidas Dropset Control Training Shoes",
+      "color": "Core Black / Iron Metallic / Silver Metallic",
+      "genero": "Mujer / Training",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.co/tenis-de-entrenamiento-dropset-control/JQ1448.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/5e985c15b6b04b11a7c8c00f03df1d66_9366/tenis_de_entrenamiento_Dropset_Control_Negro_JQ1448_HM1.jpg"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/7187d6d969434e0c886b96ef3fdb6ac7_9366/tenis_de_entrenamiento_Dropset_Control_Negro_JQ1448_HM3_hover.jpg"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/e6af89b90805493f94f9d71d79d8dee1_9366/tenis_de_entrenamiento_Dropset_Control_Negro_JQ1448_HM4.jpg"
+        }
+      ]
+    },
+    {
+      "codigo": "POR_CONFIRMAR",
+      "ean": "4068818828816",
+      "producto": "adidas Barreda XLG",
+      "color": "Off White / Core Black / Gum 3",
+      "genero": "Hombre",
+      "estado": "codigo_articulo_pendiente",
+      "fuente_producto": "https://www.otto.de/p/adidas-sportswear-barreda-sneaker-inspiriert-vom-design-des-adidas-samba-xlg-C2040631472/",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://i.otto.de/i/otto/1fa65e7b-70a8-5d14-ba9d-1ac0fcd77aac?fmt=jpg&h=1600&sm=clamp&upscale=true&w=1600"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://i.otto.de/i/otto/bfeeb1c9-eb7b-5545-a986-645e05c96cdb?fmt=jpg&h=1600&sm=clamp&upscale=true&w=1600"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://i.otto.de/i/otto/e6ac06d0-9778-5eb3-ac52-a3da7e0264a3?fmt=jpg&h=1600&sm=clamp&upscale=true&w=1600"
+        }
+      ]
+    },
+    {
+      "codigo": "JQ6920",
+      "ean": "4068812361968",
+      "producto": "adidas Ultrarun 5 TR Running Shoes",
+      "color": "Wonder Sage / Core Black / Dusky Orange",
+      "genero": "Hombre / Running",
+      "estado": "confirmado",
+      "fuente_producto": "https://www.adidas.es/zapatilla-ultrarun-5-tr-running/JQ6920.html",
+      "imagenes": [
+        {
+          "orden": 1,
+          "rol": "principal",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/44b8f4c1fa9044948d721459c58d050f_9366/Zapatilla_Ultrarun_5_TR_Running_Verde_JQ6920_HM1.jpg"
+        },
+        {
+          "orden": 2,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/b2b42210ccf54bed8b5dd8245a7864ea_9366/Zapatilla_Ultrarun_5_TR_Running_Verde_JQ6920_HM3_hover.jpg"
+        },
+        {
+          "orden": 3,
+          "rol": "secundaria",
+          "url": "https://assets.adidas.com/images/w_1880%2Cf_auto%2Cq_auto/55537d63ab0f478ca519974e6a13f6ed_9366/Zapatilla_Ultrarun_5_TR_Running_Verde_JQ6920_HM4.jpg"
+        }
+      ]
+    }
+  ]
+}

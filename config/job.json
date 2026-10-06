@@ -1,0 +1,39 @@
+{
+  "project": "D'WILLY Ecommerce - Carga automática de imágenes",
+  "mode": "apply_after_validation",
+  "target_site": "https://www.dwillygalapagos.com",
+  "catalog_public_url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/catalog/catalogo.json",
+  "catalog_local_path": "catalog/catalogo.json",
+  "brand": "D'WILLY",
+  "matching_priority": [
+    "EAN exacto",
+    "codigo_articulo exacto",
+    "marca + modelo + color, solo si no existe EAN/codigo y la coincidencia es inequívoca"
+  ],
+  "rules": {
+    "image_01": "principal",
+    "image_02": "secundaria",
+    "image_03": "secundaria",
+    "do_not_change": [
+      "precio",
+      "stock",
+      "tallas",
+      "descuentos",
+      "descripciones",
+      "categorias",
+      "marcas"
+    ],
+    "skip_on_ambiguity": true,
+    "barreda_xlg_match_by_ean": "4068818828816",
+    "barreda_xlg_article_code": null,
+    "minimum_long_side_px": 1000,
+    "preferred_long_side_px": 1600,
+    "preferred_output": "webp",
+    "webp_quality": 88
+  },
+  "public_verification": {
+    "catalog_route": "/catalogo",
+    "product_route_pattern": "/catalogo/producto/{ean}",
+    "must_verify_http_200_images": true
+  }
+}

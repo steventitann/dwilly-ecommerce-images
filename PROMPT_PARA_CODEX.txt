@@ -1,0 +1,7 @@
+Abre y ejecuta `CODEX_START_HERE.md`.
+
+Trabaja de forma autónoma siguiendo `AGENTS.md`.
+No te limites a dar instrucciones: inspecciona el ecommerce, prepara los assets, crea backup, haz dry-run, carga las imágenes correctas, ejecuta pruebas/build, verifica dwillygalapagos.com y deja `artifacts/FINAL_REPORT.md`.
+
+No modifiques precios, stock, tallas, descuentos, pedidos ni clientes.
+Si un producto es ambiguo, sáltalo y continúa con los demás.
