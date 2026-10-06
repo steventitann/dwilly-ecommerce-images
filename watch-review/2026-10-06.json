@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-06",
+  "scope": "Human-reviewed initial observations; not READY manifests. Candidate pairings must not authorize uploads.",
+  "photos_reviewed": 62,
+  "labels_transcribed": 31,
+  "ready_jobs": 0,
+  "records": [
+    {
+      "index": 1,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "GA-700-1BDR",
+      "observed_ean": "4549526140921",
+      "ean_checksum_valid": true,
+      "observation": "PRODUCT_AND_LABEL",
+      "candidate_pair_verified": false,
+      "visual_comparison": {
+        "result": "VISUAL_MATCH",
+        "official_model": "GA-700-1B",
+        "source_page": "https://www.casio.com/intl/watches/gshock/product.GA-700-1B/",
+        "matching_attributes": [
+          "black resin case",
+          "black resin strap",
+          "silver hands and indices",
+          "negative LCD",
+          "dial and button layout"
+        ],
+        "remaining_checks": [
+          "Evidence linking complete GA-700-1BDR / EAN to official GA-700-1B",
+          "HD original resolution and reuse rights"
+        ],
+        "confidence": null
+      }
+    },
+    {
+      "index": 2,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "GD-100-1BDR",
+      "observed_ean": "4971850925118",
+      "ean_checksum_valid": true,
+      "observation": "PRODUCT_AND_LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 3,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "GBA-900UU-5ADR",
+      "observed_ean": "4549526322709",
+      "ean_checksum_valid": true,
+      "observation": "PRODUCT_AND_LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 4,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "WS-1500H-3BVDF",
+      "observed_ean": "4549526374579",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 5,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "MCW-200H-9AVDF",
+      "observed_ean": "4549526174933",
+      "ean_checksum_valid": true,
+      "observation": "PRODUCT_AND_LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 6,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "ECB-2300HR-1ADR",
+      "observed_ean": "4549526415999",
+      "ean_checksum_valid": true,
+      "observation": "PRODUCT_AND_LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 7,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 8,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 9,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 10,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "W-219H-2A2VDF",
+      "observed_ean": "4549526313301",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 11,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 12,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 13,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 14,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "W-219HC-8BVDF",
+      "observed_ean": "4549526358647",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 15,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 16,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AEQ-120W-7AVDF",
+      "observed_ean": "4549526396069",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 17,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 18,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "CUBITT_REQUIRES_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 19,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "HDC-700-3A2VDF",
+      "observed_ean": "4549526222894",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 20,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AE-1500WHX-1AVDF",
+      "observed_ean": "4549526324123",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 21,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 22,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "CUBITT_REQUIRES_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 23,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "MRW-210H-3AVDF",
+      "observed_ean": "4549526322242",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 24,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "W-219HC-2BVDF",
+      "observed_ean": "4549526358586",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 25,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 26,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 27,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "MTP-1314D-2AVDF",
+      "observed_ean": "4971850930778",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 28,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "MTP-1314D-7AVDF",
+      "observed_ean": "4971850930792",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 29,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 30,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "W-219H-4AVDF",
+      "observed_ean": "4549526313332",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 31,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "F-200W-1ADF",
+      "observed_ean": "4971850746096",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 32,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "HDC-700-9AVDF",
+      "observed_ean": "4549526176456",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 33,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "HDC-700-1AVDF",
+      "observed_ean": "4549526176395",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 34,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "LTP-VT01GL-4BUDF",
+      "observed_ean": "4549526286087",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 35,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 36,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "LTP-1303D-4AVDF",
+      "observed_ean": "4971850446200",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 37,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 38,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AEQ-110W-1A2VDF",
+      "observed_ean": "4549526174629",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 39,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 40,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AEQ-110W-1BVDF",
+      "observed_ean": "4549526155857",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 41,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 42,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AQ-S810W-1A3VDF",
+      "observed_ean": "4549526122439",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 43,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 44,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AQ-S820W-5AVDF",
+      "observed_ean": "4549526401282",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 45,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AE-1000W-3AVDF",
+      "observed_ean": "4549526112065",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 46,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 47,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "W-219H-1AVDF",
+      "observed_ean": "4549526294686",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 48,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 49,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AE-1500WH-8BVDF",
+      "observed_ean": "4549526296994",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 50,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "HDC-700-3A3VDF",
+      "observed_ean": "4549526222924",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 51,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "CUBITT_REQUIRES_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 52,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 53,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 54,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 55,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 56,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "CUBITT_REQUIRES_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 57,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 58,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 59,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "PRODUCT_WITHOUT_CONFIRMED_IDENTIFIER",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 60,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AE-1500WHX-3AVDF",
+      "observed_ean": "4549526324154",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 61,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": "AE-1000W-1AVDF",
+      "observed_ean": "4971850443339",
+      "ean_checksum_valid": true,
+      "observation": "LABEL",
+      "candidate_pair_verified": false
+    },
+    {
+      "index": 62,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "observed_reference": null,
+      "observed_ean": null,
+      "ean_checksum_valid": null,
+      "observation": "CUBITT_REQUIRES_IDENTIFIER",
+      "candidate_pair_verified": false
+    }
+  ]
+}
