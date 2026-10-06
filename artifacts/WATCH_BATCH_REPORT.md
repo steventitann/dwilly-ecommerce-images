@@ -30,3 +30,11 @@ El worker admite grupos explícitos y privados de 2–5 fotos, comprueba cada ve
 El worker programado necesita DWILLY_GOOGLE_CREDENTIALS: ruta privada de JSON OAuth con refresh_token o cuenta de servicio con permiso editor en Drive. No está configurado en este equipo; la conexión del chat no exporta sus credenciales. No se activó un cron que falle por esa ausencia.
 
 La carga al ecommerce corresponde a Antigravity. Este lote no cambió photo/gallery, precios, stock, inventario ni otros datos de la tienda. No se presenta la página pública como verificada tras una carga que aún no ocurrió. Antigravity debe consumir exclusivamente READY_FOR_ANTIGRAVITY, localizar EAN exacto y emitir el recibo de carga tras su comprobación pública.
+
+## Verificación realizada
+
+- 14 pruebas locales pasaron; GitHub Actions también terminó con success para el código publicado.
+- Los 8 archivos de ambos paquetes respondieron correctamente en GitHub RAW y coincidieron con los bytes del commit por SHA-256. La comparación de JSON/SVG usa el blob de Git para contemplar la normalización CRLF/LF de Windows.
+- Se verificaron las cuatro carpetas de Drive y 62 movimientos por listado de destino: NUEVAS 0, PROCESADAS 2, PENDIENTE_REVISION 60, ERROR 0.
+- El log por archivo, con IDs y destinos privados, está en .watch-runtime/verification/drive_operations.json, excluido de Git. El recibo público contiene solo conteos y productos.
+- PROCESADAS significa preparación verificada en GitHub, no carga completada por Antigravity. La ejecución programada permanece sin activar por falta de autenticación propia de Drive.

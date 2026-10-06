@@ -1,0 +1,37 @@
+{
+  "reviewed_photos": 62,
+  "prepared_products": 2,
+  "approved_images": 2,
+  "github_raw_files_verified": 8,
+  "local_tests_passed": 14,
+  "github_ci": "success",
+  "github_ci_url": "https://github.com/steventitann/dwilly-ecommerce-images/actions/runs/37519968892",
+  "drive_counts": {
+    "NUEVAS": 0,
+    "PROCESADAS": 2,
+    "PENDIENTE_REVISION": 60,
+    "ERROR": 0
+  },
+  "drive_moves_verified": 62,
+  "ecommerce_uploaded": false,
+  "scheduled_worker_active": false,
+  "remaining_requirements": [
+    "Private Drive OAuth/service-account credential for scheduled worker",
+    "Resolve 60 pending input photos: physical label association, exact variant or native HD source",
+    "Antigravity import and public ecommerce verification"
+  ],
+  "jobs": [
+    {
+      "job_id": "0433a4bc12f33cd7f54301df",
+      "ean": "4549526322709",
+      "reference": "GBA-900UU-5ADR",
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "3426e9deddf30a9f86ea5370",
+      "ean": "4549526415999",
+      "reference": "ECB-2300HR-1ADR",
+      "status": "READY_FOR_ANTIGRAVITY"
+    }
+  ]
+}
