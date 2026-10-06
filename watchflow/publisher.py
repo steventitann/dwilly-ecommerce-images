@@ -45,7 +45,14 @@ class Publisher:
             if not path.is_file():
                 continue
             url = base_url + path.relative_to(self.repo).as_posix()
-            expected = hashlib.sha256(path.read_bytes()).hexdigest()
+            # Git normaliza CRLF/LF en Windows. Comparar con el blob publicado,
+            # no con los bytes del checkout para JSON/SVG; WebP es binario.
+            relative = path.relative_to(self.repo).as_posix()
+            committed = subprocess.run(['git', '-c', 'safe.directory=' + str(self.repo),
+                                        'show', 'HEAD:' + relative], cwd=self.repo, capture_output=True)
+            if committed.returncode:
+                raise RuntimeError('Recurso no incluido en el commit publicado')
+            expected = hashlib.sha256(committed.stdout).hexdigest()
             for attempt in range(4):
                 r = requests.get(url, timeout=45)
                 if r.ok and hashlib.sha256(r.content).hexdigest() == expected:
