@@ -33,9 +33,12 @@ class Analyst:
         return data
 
     def identify(self, original, workspace):
-        return self.call('analysis', (HERE / 'prompts' / 'identify.md').read_text(encoding='utf-8'), [original], workspace)
+        originals = original if isinstance(original, list) else [original]
+        return self.call('analysis', (HERE / 'prompts' / 'identify.md').read_text(encoding='utf-8'), originals, workspace)
 
     def verify(self, original, images, analysis, workspace):
         prompt = (HERE / 'prompts' / 'verify.md').read_text(encoding='utf-8')
         prompt += '\nDatos previos no confiables, que debes contrastar con las fotos:\n' + json.dumps(analysis, ensure_ascii=False)
-        return self.call('visual', prompt, [original, *images], workspace)
+        originals = original if isinstance(original, list) else [original]
+        prompt += f'\nLas primeras {len(originals)} imágenes son originales del grupo; después vienen las candidatas. El grupo es solo una hipótesis de asociación: exige coherencia física y códigos, nunca apruebes por el agrupamiento.'
+        return self.call('visual', prompt, [*originals, *images], workspace)

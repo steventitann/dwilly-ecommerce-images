@@ -52,6 +52,13 @@ Variables adicionales:
 | DWILLY_CODEX_BIN | Ruta a Codex si no está en PATH |
 | DWILLY_RUNTIME_DIR | Estado, originales y logs persistentes; por defecto .watch-runtime |
 | DWILLY_INVENTORY_SNAPSHOT | Opcional: inventory.json de solo lectura para pre-matching |
+| DWILLY_INPUT_GROUPS | Opcional: ruta privada de un JSON de grupos explícitos de fotos de un mismo producto |
+
+Para fotos separadas, el JSON privado tiene la forma `[{"file_ids":["ID_RELOJ","ID_ETIQUETA"]}]`. Cada grupo contiene 2–5 imágenes que existen en la misma carpeta de entrada, sin compartir IDs con otro grupo. Se descargan todas, se comprueba cada versión/checksum y se pasan juntas a ambas revisiones visuales. El agrupamiento no confirma identidad: una asociación ambigua sigue enviándose a revisión. Todos los originales del grupo se mueven juntos, con reanudación idempotente. Nunca subir ese JSON privado al repositorio.
+
+Las imágenes Casio con `.transform/` se descargan desde el archivo nativo anterior a esa transformación: un original de 500 px ampliado en el servidor no cuenta como HD.
+
+El lote revisado en la conversación usa `watchflow/reviewed.py` y el expediente público `watch-review/approved-2026-10-06.json`. Es una revisión interactiva con páginas abiertas y comparación visual, no una ejecución autónoma de Drive ni una prueba de credenciales del worker. Sus manifiestos conservan ese modo de revisión explícitamente.
 
 ```sh
 python -m watchflow.pipeline init-drive

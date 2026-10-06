@@ -1,0 +1,118 @@
+[
+  {
+    "identity": {
+      "ean": "4549526322709",
+      "reference": "GBA-900UU-5ADR",
+      "code": null,
+      "brand": "CASIO",
+      "model": "GBA-900UU-5A",
+      "color": "beige / arena",
+      "dial": "negra; analógico-digital; LCD negativo",
+      "bracelet": "resina beige"
+    },
+    "label_and_product_in_same_photo": true,
+    "identity_confidence": 0.98,
+    "identity_sources": [
+      {
+        "url": "https://www.newlooktime.com.br/relogio-casio-g-shock-g-squad-sports-gba-900uu-5adr",
+        "ean": "4549526322709",
+        "reference": "GBA-900UU-5ADR",
+        "brand": "CASIO",
+        "page_read": true,
+        "verification_method": "opened_web_reader_2026-10-06"
+      },
+      {
+        "url": "https://watches.ae/products/gba-900uu-5adr",
+        "ean": "4549526322709",
+        "reference": "GBA-900UU-5ADR",
+        "brand": "CASIO",
+        "page_read": true,
+        "verification_method": "opened_web_reader_2026-10-06"
+      }
+    ],
+    "official_mapping": {
+      "reference": "GBA-900UU-5ADR",
+      "model": "GBA-900UU-5A",
+      "brand": "CASIO",
+      "url": "https://www.casio.com/intl/watches/gshock/product.GBA-900UU-5A/",
+      "reviewed": true,
+      "confidence": 0.97,
+      "method": "Etiqueta completa y EAN en dos fuentes; variante visual contrastada con fotografía oficial nativa.",
+      "note": ""
+    },
+    "images": [
+      {
+        "source_url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/G/GB/GBA/gba-900uu-5a/assets/GBA-900UU-5A.png",
+        "source_page": "https://www.casio.com/intl/watches/gshock/product.GBA-900UU-5A/",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.98
+      }
+    ]
+  },
+  {
+    "identity": {
+      "ean": "4549526415999",
+      "reference": "ECB-2300HR-1ADR",
+      "code": null,
+      "brand": "CASIO",
+      "model": "ECB-2300HR-1A",
+      "color": "caja plateada, bisel marfil, detalles rojos",
+      "dial": "gris/negra; analógico-digital Honda 60 años",
+      "bracelet": "cuero marfil con detalles rojos"
+    },
+    "label_and_product_in_same_photo": true,
+    "identity_confidence": 0.98,
+    "identity_sources": [
+      {
+        "url": "https://www.gunkutsaat.com/ecb-2300hr-1adr-casio-edifice-honda-special-edition-erkek-kol-saati-ecb-2300hr-1adr",
+        "ean": "4549526415999",
+        "reference": "ECB-2300HR-1ADR",
+        "brand": "CASIO",
+        "page_read": true,
+        "verification_method": "opened_web_reader_2026-10-06"
+      },
+      {
+        "url": "https://www.ebay.com/itm/327006881198",
+        "ean": "4549526415999",
+        "reference": "ECB-2300HR-1ADR",
+        "brand": "CASIO",
+        "page_read": true,
+        "verification_method": "opened_web_reader_2026-10-06"
+      }
+    ],
+    "official_mapping": {
+      "reference": "ECB-2300HR-1ADR",
+      "model": "ECB-2300HR-1A",
+      "brand": "CASIO",
+      "url": "https://www.casio.com/intl/watches/edifice/product.ECB-2300HR-1A/",
+      "reviewed": true,
+      "confidence": 0.97,
+      "method": "Etiqueta completa y EAN en dos fuentes; variante visual contrastada con fotografía oficial nativa.",
+      "note": "Otro comercio muestra EAN 4549526416002; no se reemplaza el EAN observado. Dos fuentes independientes respaldan 4549526415999 y la referencia exacta."
+    },
+    "images": [
+      {
+        "source_url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/E/EC/ECB/ecb-2300hr-1a/assets/ECB-2300HR-1A.png",
+        "source_page": "https://www.casio.com/intl/watches/edifice/product.ECB-2300HR-1A/",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.98
+      }
+    ]
+  }
+]

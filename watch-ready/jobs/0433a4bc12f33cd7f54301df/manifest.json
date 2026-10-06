@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "job_id": "0433a4bc12f33cd7f54301df",
+  "prepared_at": "2026-10-06T19:25:29.849015+00:00",
+  "status": "READY_FOR_ANTIGRAVITY",
+  "identity": {
+    "ean": "4549526322709",
+    "reference": "GBA-900UU-5ADR",
+    "code": null,
+    "brand": "CASIO",
+    "model": "GBA-900UU-5A",
+    "color": "beige / arena",
+    "dial": "negra; analógico-digital; LCD negativo",
+    "bracelet": "resina beige"
+  },
+  "confidence": 0.97,
+  "confidence_method": "minimum_reviewed_evidence_score",
+  "review_mode": "interactive_visual_and_web_review",
+  "barcode": {
+    "value": "4549526322709",
+    "format": "EAN13",
+    "file": "barcode.svg"
+  },
+  "inventory_match": {
+    "status": "ANTIGRAVITY_MUST_MATCH",
+    "matched_by": null,
+    "codes": []
+  },
+  "sources": [
+    {
+      "url": "https://www.newlooktime.com.br/relogio-casio-g-shock-g-squad-sports-gba-900uu-5adr",
+      "ean": "4549526322709",
+      "reference": "GBA-900UU-5ADR",
+      "brand": "CASIO",
+      "page_read": true,
+      "verification_method": "opened_web_reader_2026-10-06"
+    },
+    {
+      "url": "https://watches.ae/products/gba-900uu-5adr",
+      "ean": "4549526322709",
+      "reference": "GBA-900UU-5ADR",
+      "brand": "CASIO",
+      "page_read": true,
+      "verification_method": "opened_web_reader_2026-10-06"
+    }
+  ],
+  "official_reference_mapping": {
+    "reference": "GBA-900UU-5ADR",
+    "model": "GBA-900UU-5A",
+    "brand": "CASIO",
+    "url": "https://www.casio.com/intl/watches/gshock/product.GBA-900UU-5A/",
+    "reviewed": true,
+    "confidence": 0.97,
+    "method": "Etiqueta completa y EAN en dos fuentes; variante visual contrastada con fotografía oficial nativa.",
+    "note": ""
+  },
+  "exact_evidence": {
+    "kind": "ean",
+    "observed_value": "4549526322709",
+    "visible_in_photo": true,
+    "page_verified": true
+  },
+  "visual_validation": {
+    "original_readable": true,
+    "identity_confidence": 0.98,
+    "images": [
+      {
+        "order": 1,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "image_usable": true,
+        "confidence": 0.98
+      }
+    ]
+  },
+  "images": [
+    {
+      "sha256": "025e6541db278dc3dedb7af4bbe95a934839aa79864e91178478b2468fde292d",
+      "source_sha256": "e8299da6b6ca035e74f1a2f4ca944bbbeabf4100424d70d3d6abe415a15592d5",
+      "source_width": 2000,
+      "source_height": 2000,
+      "width": 1600,
+      "height": 1600,
+      "bytes": 260652,
+      "order": 1,
+      "role": "principal",
+      "path": "watch-ready/jobs/0433a4bc12f33cd7f54301df/4549526322709_01.webp",
+      "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/watch-ready/jobs/0433a4bc12f33cd7f54301df/4549526322709_01.webp",
+      "source_url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/G/GB/GBA/gba-900uu-5a/assets/GBA-900UU-5A.png",
+      "source_page": "https://www.casio.com/intl/watches/gshock/product.GBA-900UU-5A/"
+    }
+  ],
+  "allowed_changes": [
+    "photo",
+    "gallery"
+  ],
+  "ecommerce_uploaded": false
+}

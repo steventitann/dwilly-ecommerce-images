@@ -89,6 +89,23 @@ class FakePublisher:
     def verify(self, path, raw): self.calls.append('verify')
 
 class PipelineTests(unittest.TestCase):
+    @patch('watchflow.pipeline.verify_sources')
+    @patch('watchflow.pipeline.download')
+    def test_group_downloads_all_originals_and_moves_after_publication(self, dl, sources):
+        dl.side_effect = lambda url, target: (Image.new('RGB', (1200, 1200), 'green').save(target, format='PNG') or url)
+        with tempfile.TemporaryDirectory() as d:
+            p, drive, publisher, state = self.make(Path(d))
+            seen=[]
+            original_identify=p.analyst.identify
+            p.analyst.identify=lambda inputs, work: (seen.append(inputs) or original_identify(inputs,work))
+            p.process({'id':'product','modifiedTime':'version-1'},'new',{'PROCESADAS':'done'},
+                      [{'id':'label','modifiedTime':'version-1'}])
+            self.assertEqual(len(seen[0]),2)
+            self.assertEqual(publisher.calls,['publish','verify'])
+            self.assertEqual({m[0] for m in drive.moves},{'product','label'})
+            self.assertTrue(all(m[-1]=='done' for m in drive.moves))
+            state.close()
+
     def make(self, root, ambiguous=False, fail=False):
         state = State(root / 'runtime'); drive = FakeDrive(); publisher = FakePublisher(root, fail)
         self.addCleanup(state.close)

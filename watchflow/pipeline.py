@@ -49,20 +49,29 @@ class Pipeline:
             destination, terminal = 'ERROR', 'ERROR'
         else:
             return
-        self.drive.move(job['file_id'], job['source_parent'], folders[destination])
+        for file_id in job.get('file_ids', [job['file_id']]):
+            self.drive.move(file_id, job['source_parent'], folders[destination])
         self.state.log(key, 'drive_move_verified', destination=destination)
         self.state.set(key, status=terminal)
 
-    def process(self, meta, source_parent, folders):
+    def process(self, meta, source_parent, folders, companions=None):
+        inputs = sorted([meta, *(companions or [])], key=lambda x: x['id'])
+        if not 1 <= len(inputs) <= 5 or len({x['id'] for x in inputs}) != len(inputs):
+            raise RuntimeError('Grupo de fotos inválido')
         fingerprint = meta.get('md5Checksum') or meta.get('modifiedTime')
         if not fingerprint:
             raise RuntimeError('Drive no proporcionó versión de la foto')
         key = hashlib.sha256((meta['id'] + ':' + fingerprint).encode()).hexdigest()[:24]
+        if companions:
+            versions = [x['id'] + ':' + (x.get('md5Checksum') or x.get('modifiedTime') or '') for x in inputs]
+            if any(not (x.get('md5Checksum') or x.get('modifiedTime')) for x in inputs):
+                raise RuntimeError('Falta versión de una foto del grupo')
+            key = hashlib.sha256('|'.join(versions).encode()).hexdigest()[:24]
         previous = self.state.get(key)
         if previous and previous.get('status') != 'DISCOVERED':
             return
         job = self.state.set(key, key=key, status='DISCOVERED', file_id=meta['id'],
-                             source_parent=source_parent, version=fingerprint)
+                             source_parent=source_parent, version=fingerprint, file_ids=[x['id'] for x in inputs])
         work = self.state.directory / 'jobs' / key
         work.mkdir(parents=True, exist_ok=True)
         try:
@@ -80,7 +89,27 @@ class Pipeline:
                 im.load()
                 vision_input = work / 'input.png'
                 im.save(vision_input)
-            self.state.log(key, 'drive_download_verified')
+            vision_inputs = [vision_input]
+            for index, other in enumerate(inputs):
+                if other['id'] == meta['id']:
+                    continue
+                target = work / f'companion-{index}.photo'
+                downloaded = self.drive.download(other['id'], target)
+                version = other.get('md5Checksum') or other.get('modifiedTime')
+                if (downloaded.get('md5Checksum') or downloaded.get('modifiedTime')) != version:
+                    raise RuntimeError('Una foto del grupo cambió durante la descarga')
+                if other.get('md5Checksum') and hashlib.md5(target.read_bytes()).hexdigest() != other['md5Checksum']:
+                    raise RuntimeError('Checksum del grupo no coincide')
+                with Image.open(target) as im:
+                    im.verify()
+                path = work / f'companion-{index}.png'
+                with Image.open(target) as im:
+                    im.load()
+                    im.save(path)
+                vision_inputs.append(path)
+            if companions:
+                vision_input = vision_inputs
+            self.state.log(key, 'drive_download_verified', original_count=len(vision_inputs))
             analysis = self.analyst.identify(vision_input, work)
             write_json(work / 'analysis.json', analysis)
             self.state.log(key, 'identification_complete', confidence=analysis['confidence'])
@@ -162,11 +191,29 @@ class Pipeline:
         if self.config.get('accept_root_uploads', True):
             parents.append(self.root)
         processed = 0
+        groups = []
+        if os.getenv('DWILLY_INPUT_GROUPS'):
+            groups = json.loads(Path(os.environ['DWILLY_INPUT_GROUPS']).read_text(encoding='utf-8'))
+        grouped_ids = [file_id for group in groups for file_id in group['file_ids']]
+        if len(grouped_ids) != len(set(grouped_ids)) or any(not 2 <= len(g['file_ids']) <= 5 for g in groups):
+            raise RuntimeError('Grupos solapados o fuera de límites')
+        visited = set()
         for parent in parents:
-            for meta in list(self.drive.children(parent)):
+            children = list(self.drive.children(parent))
+            by_id = {x['id']: x for x in children}
+            for meta in children:
                 if not meta['mimeType'].startswith('image/'):
                     continue
-                self.process(meta, parent, folders)
+                if meta['id'] in visited:
+                    continue
+                group = next((g for g in groups if meta['id'] in g['file_ids']), None)
+                companions = []
+                if group:
+                    if any(file_id not in by_id or not by_id[file_id]['mimeType'].startswith('image/') for file_id in group['file_ids']):
+                        raise RuntimeError('Grupo incompleto: todas las fotos deben existir en la misma carpeta de entrada')
+                    companions = [by_id[file_id] for file_id in group['file_ids'] if file_id != meta['id']]
+                    visited.update(group['file_ids'])
+                self.process(meta, parent, folders, companions)
                 processed += 1
                 if processed >= self.config.get('max_files_per_run', 5):
                     return

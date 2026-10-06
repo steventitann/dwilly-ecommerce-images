@@ -15,6 +15,10 @@ def public_url(url):
             raise ReviewRequired('Dirección privada o local rechazada')
 
 def download(url, path):
+    # Casio transforma incluso originales de 500px a 1200px: validar el
+    # archivo nativo, no aceptar esa ampliación como evidencia de HD.
+    if urlparse(url).hostname and urlparse(url).hostname.endswith('casio.com') and '.transform/' in url:
+        url = url.split('.transform/', 1)[0]
     session = requests.Session()
     for _ in range(6):
         public_url(url)

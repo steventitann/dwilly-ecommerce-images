@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "job_id": "3426e9deddf30a9f86ea5370",
+  "prepared_at": "2026-10-06T19:25:33.473353+00:00",
+  "status": "READY_FOR_ANTIGRAVITY",
+  "identity": {
+    "ean": "4549526415999",
+    "reference": "ECB-2300HR-1ADR",
+    "code": null,
+    "brand": "CASIO",
+    "model": "ECB-2300HR-1A",
+    "color": "caja plateada, bisel marfil, detalles rojos",
+    "dial": "gris/negra; analógico-digital Honda 60 años",
+    "bracelet": "cuero marfil con detalles rojos"
+  },
+  "confidence": 0.97,
+  "confidence_method": "minimum_reviewed_evidence_score",
+  "review_mode": "interactive_visual_and_web_review",
+  "barcode": {
+    "value": "4549526415999",
+    "format": "EAN13",
+    "file": "barcode.svg"
+  },
+  "inventory_match": {
+    "status": "ANTIGRAVITY_MUST_MATCH",
+    "matched_by": null,
+    "codes": []
+  },
+  "sources": [
+    {
+      "url": "https://www.gunkutsaat.com/ecb-2300hr-1adr-casio-edifice-honda-special-edition-erkek-kol-saati-ecb-2300hr-1adr",
+      "ean": "4549526415999",
+      "reference": "ECB-2300HR-1ADR",
+      "brand": "CASIO",
+      "page_read": true,
+      "verification_method": "opened_web_reader_2026-10-06"
+    },
+    {
+      "url": "https://www.ebay.com/itm/327006881198",
+      "ean": "4549526415999",
+      "reference": "ECB-2300HR-1ADR",
+      "brand": "CASIO",
+      "page_read": true,
+      "verification_method": "opened_web_reader_2026-10-06"
+    }
+  ],
+  "official_reference_mapping": {
+    "reference": "ECB-2300HR-1ADR",
+    "model": "ECB-2300HR-1A",
+    "brand": "CASIO",
+    "url": "https://www.casio.com/intl/watches/edifice/product.ECB-2300HR-1A/",
+    "reviewed": true,
+    "confidence": 0.97,
+    "method": "Etiqueta completa y EAN en dos fuentes; variante visual contrastada con fotografía oficial nativa.",
+    "note": "Otro comercio muestra EAN 4549526416002; no se reemplaza el EAN observado. Dos fuentes independientes respaldan 4549526415999 y la referencia exacta."
+  },
+  "exact_evidence": {
+    "kind": "ean",
+    "observed_value": "4549526415999",
+    "visible_in_photo": true,
+    "page_verified": true
+  },
+  "visual_validation": {
+    "original_readable": true,
+    "identity_confidence": 0.98,
+    "images": [
+      {
+        "order": 1,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "image_usable": true,
+        "confidence": 0.98
+      }
+    ]
+  },
+  "images": [
+    {
+      "sha256": "44b8464c0e50dfeb6c202744a483d585037c1a0efee8e5ceb27d61973579c33a",
+      "source_sha256": "117240634780aeb6842236238041f934454b23f3daa071e24f9e6b2be74a8377",
+      "source_width": 2000,
+      "source_height": 2000,
+      "width": 1600,
+      "height": 1600,
+      "bytes": 269062,
+      "order": 1,
+      "role": "principal",
+      "path": "watch-ready/jobs/3426e9deddf30a9f86ea5370/4549526415999_01.webp",
+      "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/watch-ready/jobs/3426e9deddf30a9f86ea5370/4549526415999_01.webp",
+      "source_url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/E/EC/ECB/ecb-2300hr-1a/assets/ECB-2300HR-1A.png",
+      "source_page": "https://www.casio.com/intl/watches/edifice/product.ECB-2300HR-1A/"
+    }
+  ],
+  "allowed_changes": [
+    "photo",
+    "gallery"
+  ],
+  "ecommerce_uploaded": false
+}

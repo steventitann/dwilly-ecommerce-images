@@ -9,3 +9,5 @@ Busca primero el EAN visible, después la referencia exacta completa y modelo. P
 Para cada candidato devuelve la URL HTTPS directa del archivo de imagen y la página exacta de producto que la respalda. Busca fotos HD del reloj, no fotografías de cajas, etiquetas o diagramas. No generes ni reconstruyas imágenes. Selecciona hasta seis candidatos ordenados por utilidad; el sistema descargará hasta tres fotos válidas y las someterá a otra comparación visual.
 
 El confidence no es una probabilidad calibrada: refleja tu certeza de identidad. No uses >=0.95 si cualquier parte necesaria es ilegible, dudosa, inferida por parecido o contradictoria. exact_evidence.observed_value debe ser el identificador literalmente visible en la fotografía. page_verified solo es true si comprobaste el mismo identificador en una página abierta.
+
+Puedes recibir varias fotos explícitamente agrupadas. Comprueba que corresponden a un solo producto y variante; agruparlas no prueba asociación. Una etiqueta separada sin vínculo inequívoco con el reloj mantiene ambiguous=true. Nunca asociar por orden, proximidad temporal o parecido de familia.

@@ -1,9 +1,9 @@
 name: Watch image pipeline tests
 on:
   push:
-    paths: ['watchflow/**', '.github/workflows/watchflow-tests.yml']
+    paths: ['watchflow/**', 'watch-review/approved-*.json', '.github/workflows/watchflow-tests.yml']
   pull_request:
-    paths: ['watchflow/**', '.github/workflows/watchflow-tests.yml']
+    paths: ['watchflow/**', 'watch-review/approved-*.json', '.github/workflows/watchflow-tests.yml']
 permissions:
   contents: read
 jobs:
