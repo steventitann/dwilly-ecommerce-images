@@ -2,6 +2,8 @@
 
 ## Integración con Antigravity
 
+**Flujo de relojes Google Drive → GitHub:** [watchflow/README.md](watchflow/README.md). El worker identifica fotos de `Imágenes dwilly reloj`, valida referencias y variantes y publica paquetes con WebP y códigos de barras. Antigravity carga después el ecommerce siguiendo [ANTIGRAVITY_WATCHES.md](ANTIGRAVITY_WATCHES.md).
+
 Empieza por [ANTIGRAVITY_START_HERE.md](ANTIGRAVITY_START_HERE.md). Este repositorio publica recursos e instrucciones para seis productos (18 imágenes); Antigravity realiza la integración desde el proyecto real del ecommerce. Consulta `artifacts/PREPARATION_REPORT.md` para conocer el estado de preparación.
 
 Este paquete convierte la tarea de cargar imágenes de productos en un trabajo autónomo para Codex.

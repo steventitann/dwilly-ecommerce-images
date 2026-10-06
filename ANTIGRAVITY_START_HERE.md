@@ -1,5 +1,7 @@
 # Integración de imágenes D’WILLY con Antigravity
 
+Para el flujo de **relojes desde Google Drive**, lee primero `watchflow/README.md` y `ANTIGRAVITY_WATCHES.md`. La preparación termina en GitHub y Antigravity hace la carga. Las instrucciones restantes de este archivo corresponden al lote inicial de seis productos adidas.
+
 Repositorio de recursos: https://github.com/steventitann/dwilly-ecommerce-images
 
 Este repositorio contiene el lote de imágenes y su especificación. La integración debe realizarse desde el repositorio real del ecommerce, usando su almacenamiento y su modelo de productos.

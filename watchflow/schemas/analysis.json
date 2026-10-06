@@ -1,0 +1,160 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ean": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "brand": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "dial": {
+          "type": "string"
+        },
+        "bracelet": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "ean",
+        "reference",
+        "code",
+        "brand",
+        "model",
+        "color",
+        "dial",
+        "bracelet"
+      ]
+    },
+    "label_text": {
+      "type": "string"
+    },
+    "ambiguous": {
+      "type": "boolean"
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "exact_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "ean",
+            "reference",
+            "none"
+          ]
+        },
+        "observed_value": {
+          "type": "string"
+        },
+        "visible_in_photo": {
+          "type": "boolean"
+        },
+        "page_verified": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "kind",
+        "observed_value",
+        "visible_in_photo",
+        "page_verified"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "official": {
+            "type": "boolean"
+          },
+          "identifier": {
+            "type": "string"
+          },
+          "brand": {
+            "type": "string"
+          },
+          "model": {
+            "type": "string"
+          },
+          "evidence_text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "url",
+          "official",
+          "identifier",
+          "brand",
+          "model",
+          "evidence_text"
+        ]
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "source_page": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "url",
+          "source_page"
+        ]
+      }
+    }
+  },
+  "required": [
+    "identity",
+    "label_text",
+    "ambiguous",
+    "confidence",
+    "reason",
+    "exact_evidence",
+    "sources",
+    "candidates"
+  ]
+}

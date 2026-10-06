@@ -1,0 +1,10 @@
+{
+  "drive_root": "1anN1xrwP1Lr39Uxs0Ti1m3kB8fawYwKj",
+  "accept_root_uploads": true,
+  "max_files_per_run": 5,
+  "analyst_timeout_seconds": 600,
+  "git_remote": "origin",
+  "git_branch": "main",
+  "mode": "github_handoff",
+  "minimum_confidence": 0.95
+}

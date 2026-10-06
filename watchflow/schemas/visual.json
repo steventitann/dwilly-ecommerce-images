@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "original_readable": {
+      "type": "boolean"
+    },
+    "identity_confidence": {
+      "type": "number"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "order": {
+            "type": "integer"
+          },
+          "matches": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "brand": {
+                "type": "boolean"
+              },
+              "model": {
+                "type": "boolean"
+              },
+              "reference": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "boolean"
+              },
+              "dial": {
+                "type": "boolean"
+              },
+              "bracelet": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "brand",
+              "model",
+              "reference",
+              "color",
+              "dial",
+              "bracelet"
+            ]
+          },
+          "image_usable": {
+            "type": "boolean"
+          },
+          "confidence": {
+            "type": "number"
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "order",
+          "matches",
+          "image_usable",
+          "confidence",
+          "reason"
+        ]
+      }
+    }
+  },
+  "required": [
+    "original_readable",
+    "identity_confidence",
+    "images"
+  ]
+}
