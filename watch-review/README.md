@@ -1,5 +1,7 @@
 # Corroboración de fotografías recibidas
 
+Actualización del 7 de octubre: [contraste detallado](CONTRAST-2026-10-07.md) y [registro estructurado](contrast-2026-10-07.json). Se contabilizan las 60 fotos pendientes: 25 pares contrastados (24 variantes visualmente compatibles y 1 parcial) más 10 casos adicionales. Se corrigieron cuatro asociaciones candidatas de W-219HC y HDC-700; la etiqueta AQ-S820W queda sin foto coincidente. El resultado visual no confirma el vínculo físico de etiquetas separadas ni habilita una carga. Este registro posterior prevalece sobre las asociaciones tentativas del informe inicial.
+
 Se inspeccionaron visualmente las 62 fotos de Drive el 6 de octubre de 2026. El registro JSON conserva 31 transcripciones iniciales de etiquetas. Se omiten IDs de Drive, nombres de archivos y asociaciones privadas. Las fotos originales se mantienen privadas porque incluyen etiquetas comerciales y personas.
 
 El JSON inicial conserva observaciones históricas, no manifiestos listos para subir. Posteriormente se aprobaron GBA-900UU-5ADR y ECB-2300HR-1ADR: sus expedientes están en approved-2026-10-06.json y los paquetes en watch-ready/jobs. Las otras 60 fotos siguen en PENDIENTE_REVISION. Las asociaciones candidatas entre fotos del reloj y fotos de etiqueta no están confirmadas: no usar cercanía, nombre, orden o fecha de subida para aprobarlas.

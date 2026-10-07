@@ -1,0 +1,936 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-07",
+  "scope": "Contraste visual de las 60 fotos pendientes con etiquetas e imágenes oficiales. No autoriza cargas.",
+  "pending_photos_accounted_for": 60,
+  "pairs_compared": 25,
+  "visual_variant_matches": 24,
+  "partial_visual_matches": 1,
+  "unpaired_or_joint_photo_cases": 10,
+  "new_ready_jobs": 0,
+  "corrections": [
+    {
+      "product_photo_index": 37,
+      "rejected_label_photo_index": 24,
+      "corrected_candidate_label_photo_index": 14,
+      "reason": "La variante clara es W-219HC-8BV."
+    },
+    {
+      "product_photo_index": 52,
+      "rejected_label_photo_index": 14,
+      "corrected_candidate_label_photo_index": 24,
+      "reason": "La variante gris azulada es W-219HC-2BV."
+    },
+    {
+      "product_photo_index": 46,
+      "rejected_label_photo_index": 44,
+      "corrected_candidate_label_photo_index": 50,
+      "reason": "Diseño HDC-700-3A3V beige, no AQ-S820W-5AV Tough Solar."
+    },
+    {
+      "product_photo_index": 57,
+      "rejected_label_photo_index": 50,
+      "corrected_candidate_label_photo_index": 19,
+      "reason": "Verde oliva HDC-700-3A2V; 3A3V oficial es beige."
+    }
+  ],
+  "pairs": [
+    {
+      "product_photo_index": 7,
+      "label_photo_index": 4,
+      "observed_reference": "WS-1500H-3BVDF",
+      "observed_ean": "4549526374579",
+      "ean_checksum_valid": true,
+      "official_model": "WS-1500H-3BV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.WS-1500H-3BV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina verde oliva",
+        "LCD negativo",
+        "indicadores pesca/luna"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/W/WS/WS1/ws-1500h-3bv/assets/WS-1500H-3BV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "f3ca97786614efe9fd04b60ce5b7f5a620b5834fb34fb314d19f22f6c66f9329",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 8,
+      "label_photo_index": 27,
+      "observed_reference": "MTP-1314D-2AVDF",
+      "observed_ean": "4971850930778",
+      "ean_checksum_valid": true,
+      "official_model": "MTP-1314D-2AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.MTP-1314D-2AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "brazalete y caja acero",
+        "esfera azul",
+        "fecha a las 3"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/M/MT/MTP/MTP-1314D-2AV/assets/MTP-1314D-2AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "18bc7993ff4be6019732780cf5440f9364284353ae0b7953dad96437cc68ff8d",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 9,
+      "label_photo_index": 42,
+      "observed_reference": "AQ-S810W-1A3VDF",
+      "observed_ean": "4549526122439",
+      "ean_checksum_valid": true,
+      "official_model": "AQ-S810W-1A3V",
+      "source_page": "https://www.casio.com/us/watches/casio/product.AQ-S810W-1A3V/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina negra",
+        "índices/agujas dorados",
+        "Tough Solar"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/us/en/timepiece/product/watch/A/AQ/AQS/AQ-S810W-1A3V/us-assets/AQ-S810W-1A3V_01.png",
+        "native_width": 1000,
+        "native_height": 1000,
+        "sha256": "c30509e26eff2f50ae6f29959edb5d332fdfe5634f80710fad5ecf60b9d98de7",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 11,
+      "label_photo_index": 16,
+      "observed_reference": "AEQ-120W-7AVDF",
+      "observed_ean": "4549526396069",
+      "ean_checksum_valid": true,
+      "official_model": "AEQ-120W-7AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.AEQ-120W-7AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina negra",
+        "esfera plateada",
+        "dos ventanas LCD circulares"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/A/AE/AEQ/aeq-120w-7av/assets/AEQ-120W-7AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "23c05bec26eec3b003fbce61e13b785e001523b2807e49a0e950ba1c549c3f1c",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 12,
+      "label_photo_index": 28,
+      "observed_reference": "MTP-1314D-7AVDF",
+      "observed_ean": "4971850930792",
+      "ean_checksum_valid": true,
+      "official_model": "MTP-1314D-7AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.MTP-1314D-7AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "brazalete acero",
+        "esfera blanca",
+        "fecha a las 3"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/M/MT/MTP/mtp-1314d-7av/assets/MTP-1314D-7AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "f854defed10afd386c4c7cb8a6d7c83a6f9a3aa55b27bf9f4ce2b07ae4a7ef56",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 13,
+      "label_photo_index": 20,
+      "observed_reference": "AE-1500WHX-1AVDF",
+      "observed_ean": "4549526324123",
+      "ean_checksum_valid": true,
+      "official_model": "AE-1500WHX-1AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.AE-1500WHX-1AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina negra",
+        "pantalla positiva grande",
+        "leyendas doradas"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/A/AE/AE1/ae-1500whx-1av/assets/AE-1500WHX-1AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "991d87a34644a09e52142e262fe4072b7ebb734505cb0f357e767fbd468e202e",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 15,
+      "label_photo_index": 38,
+      "observed_reference": "AEQ-110W-1A2VDF",
+      "observed_ean": "4549526174629",
+      "ean_checksum_valid": true,
+      "official_model": "AEQ-110W-1A2V",
+      "source_page": "https://www.casio.com/in/watches/casio/product.AEQ-110W-1A2V/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina negra",
+        "índices naranjas",
+        "dos LCD inferiores"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/A/AE/AEQ/AEQ-110W-1A2V/assets/AEQ-110W-1A2V_01.jpg",
+        "native_width": 500,
+        "native_height": 600,
+        "sha256": "11f88b725b0db39927121f80ac7aef748cf2202de1d649d193f85d263b17072b",
+        "native_hd_size_pass": false
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones.",
+        "Encontrar original HD nativo; no ampliar el archivo de 500×600."
+      ]
+    },
+    {
+      "product_photo_index": 17,
+      "label_photo_index": 32,
+      "observed_reference": "HDC-700-9AVDF",
+      "observed_ean": "4549526176456",
+      "ean_checksum_valid": true,
+      "official_model": "HDC-700-9AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.HDC-700-9AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina negra",
+        "índices y leyendas dorados",
+        "LCD positivo"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/H/HD/HDC/HDC-700-9AV/assets/HDC-700-9AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "7c2732044baa528d55aeec8e2279dc2fcaf894319c1276b79d0897d8e0daa7b8",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 21,
+      "label_photo_index": 23,
+      "observed_reference": "MRW-210H-3AVDF",
+      "observed_ean": "4549526322242",
+      "ean_checksum_valid": true,
+      "official_model": "MRW-210H-3AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.MRW-210H-3AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "correa verde",
+        "bisel negro con números verdes",
+        "día/fecha"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/M/MR/mrw/mrw-210h-3av/assets/MRW-210H-3AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "14f95407bf8a167444c74ab80a059770871c090fdacf2de0d4844e6d9fd87223",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 25,
+      "label_photo_index": 61,
+      "observed_reference": "AE-1000W-1AVDF",
+      "observed_ean": "4971850443339",
+      "ean_checksum_valid": true,
+      "official_model": "AE-1000W-1AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.AE-1000W-1AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina negra",
+        "mapa y subesfera circular",
+        "LCD positivo"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/A/AE/AE1/AE-1000W-1AV/assets/AE-1000W-1AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "013acfa5e07ed8a63f7f4f4aba44b655ca2cea4801bfb85281fb6a33212a1b2c",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 26,
+      "label_photo_index": 40,
+      "observed_reference": "AEQ-110W-1BVDF",
+      "observed_ean": "4549526155857",
+      "ean_checksum_valid": true,
+      "official_model": "AEQ-110W-1BV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.AEQ-110W-1BV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina negra",
+        "esfera oscura e índices grises",
+        "dos LCD inferiores"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/A/AE/AEQ/AEQ-110W-1BV/assets/AEQ-110W-1BV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "4423e962a31f67467ebff44b6dafe23d4a17e8a670a91d366ce93e81773b5841",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 29,
+      "label_photo_index": 60,
+      "observed_reference": "AE-1500WHX-3AVDF",
+      "observed_ean": "4549526324154",
+      "ean_checksum_valid": true,
+      "official_model": "AE-1500WHX-3AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.AE-1500WHX-3AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina verde oliva",
+        "LCD positivo grande"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/A/AE/AE1/ae-1500whx-3av/assets/AE-1500WHX-3AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "82809eba4ce4443e96988a861b15b1582f632adc181279208e792ec268b61b4f",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 35,
+      "label_photo_index": 49,
+      "observed_reference": "AE-1500WH-8BVDF",
+      "observed_ean": "4549526296994",
+      "ean_checksum_valid": true,
+      "official_model": "AE-1500WH-8BV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.AE-1500WH-8BV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina gris",
+        "LCD negativo",
+        "detalles azules"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/A/AE/AE1/AE-1500WH-8BV/assets/AE-1500WH-8BV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "0c9ba16ee2c1602c3bff473dc1abd6d9abd179d091eac884b5a51d2a8ebbabea",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 37,
+      "label_photo_index": 14,
+      "observed_reference": "W-219HC-8BVDF",
+      "observed_ean": "4549526358647",
+      "ean_checksum_valid": true,
+      "official_model": "W-219HC-8BV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.W-219HC-8BV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "caja y correa crema/gris claro",
+        "LCD negativo"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/W/W2/W21/w-219hc-8bv/assets/W-219HC-8BV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "29113c0c4852b7d80c83930245c2f0c394726f128b2c75a3420a8d26dd4af891",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 41,
+      "label_photo_index": 33,
+      "observed_reference": "HDC-700-1AVDF",
+      "observed_ean": "4549526176395",
+      "ean_checksum_valid": true,
+      "official_model": "HDC-700-1AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.HDC-700-1AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina negra",
+        "índices plateados",
+        "LCD positivo"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/H/HD/HDC/HDC-700-1AV/assets/HDC-700-1AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "37eea78ce84786afaf1a21a637e6b8c4e775916d34358e891278a1ce8f32e8e1",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 43,
+      "label_photo_index": 30,
+      "observed_reference": "W-219H-4AVDF",
+      "observed_ean": "4549526313332",
+      "ean_checksum_valid": true,
+      "official_model": "W-219H-4AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.W-219H-4AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "caja negra",
+        "correa naranja",
+        "LCD positivo"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/W/W2/W21/w-219h-4av/assets/W-219H-4AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "518f5c3e9e5d919788741209fc82598c3914241e4cda1f2eeb5d28d74a32cc65",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 46,
+      "label_photo_index": 50,
+      "observed_reference": "HDC-700-3A3VDF",
+      "observed_ean": "4549526222924",
+      "ean_checksum_valid": true,
+      "official_model": "HDC-700-3A3V",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.HDC-700-3A3V/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina beige",
+        "detalles naranjas",
+        "LCD negativo",
+        "botón LIGHT frontal"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/H/HD/HDC/HDC-700-3A3V/assets/HDC-700-3A3V.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "5cd1c7f0424674f66d35aed6b133c61175cf5a3d6fe711b766953545ae8cfd51",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 48,
+      "label_photo_index": 36,
+      "observed_reference": "LTP-1303D-4AVDF",
+      "observed_ean": "4971850446200",
+      "ean_checksum_valid": true,
+      "official_model": "LTP-1303D-4AV",
+      "source_page": "https://www.casio.com/ph/watches/casio/product.LTP-1303D-4AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "caja/brazalete acero",
+        "esfera rosa",
+        "índices rectos"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/ph/en/timepiece/product/watch/L/LT/LTP/ltp-1303d-4av/assets/LTP-1303D-4AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "7eb4ea7ac09d4665ab913e649d161eb853aa12d22f3433ff17bec88d5fec0092",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 52,
+      "label_photo_index": 24,
+      "observed_reference": "W-219HC-2BVDF",
+      "observed_ean": "4549526358586",
+      "ean_checksum_valid": true,
+      "official_model": "W-219HC-2BV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.W-219HC-2BV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "caja/correa gris azulado",
+        "detalles azules",
+        "LCD negativo"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/W/W2/W21/w-219hc-2bv/assets/W-219HC-2BV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "a7dc7cba5feeb78a454551e777ec79cdaba3dbaae19f925b2b4157eb2ad253f4",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 53,
+      "label_photo_index": 31,
+      "observed_reference": "F-200W-1ADF",
+      "observed_ean": "4971850746096",
+      "ean_checksum_valid": true,
+      "official_model": "F-200W-1A",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.F-200W-1A/",
+      "comparison_result": "PARTIAL_VISUAL_MATCH",
+      "observed_matching_attributes": [
+        "caja redonda",
+        "LCD positivo",
+        "leyendas rojas y azules",
+        "color de correa no concluyente"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/F/F2/F20/f-200w-1a/assets/F-200W-1A.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "1e6d35e10aa7ad780c6570bf3af3d7345307ae7d93f76d1828498cddb16fa1e3",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Confirmar color de correa: el original oficial parece verde oscuro; la foto recibida parece negra.",
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 54,
+      "label_photo_index": 45,
+      "observed_reference": "AE-1000W-3AVDF",
+      "observed_ean": "4549526112065",
+      "ean_checksum_valid": true,
+      "official_model": "AE-1000W-3AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.AE-1000W-3AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina verde",
+        "mapa y subesfera circular",
+        "LCD positivo"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/A/AE/AE1/ae-1000w-3av/assets/AE-1000W-3AV.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "90391afe96c635bf02746de4f14e681dbb0d6b9cdae3c1a2ecd9c7626ba8061d",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 55,
+      "label_photo_index": 34,
+      "observed_reference": "LTP-VT01GL-4BUDF",
+      "observed_ean": "4549526286087",
+      "ean_checksum_valid": true,
+      "official_model": "LTP-VT01GL-4B",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.LTP-VT01GL-4B/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "caja dorada",
+        "esfera y correa rosa",
+        "números alternos"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/L/LT/LTP/LTP-VT01GL-4B/assets/LTP-VT01GL-4B_Seq1.jpg",
+        "native_width": 500,
+        "native_height": 600,
+        "sha256": "d9a6727929386e2fbaf1b359e86fde1257500d203b6ba869bb391774943f7419",
+        "native_hd_size_pass": false
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones.",
+        "Encontrar original HD nativo; no ampliar el archivo de 500×600."
+      ]
+    },
+    {
+      "product_photo_index": 57,
+      "label_photo_index": 19,
+      "observed_reference": "HDC-700-3A2VDF",
+      "observed_ean": "4549526222894",
+      "ean_checksum_valid": true,
+      "official_model": "HDC-700-3A2V",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.HDC-700-3A2V/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "resina verde oliva",
+        "detalles naranjas",
+        "LCD negativo",
+        "botón LIGHT frontal"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/H/HD/HDC/HDC-700-3A2V/assets/HDC-700-3A2V.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "73035d75948ca2557dee8627dc9f36e233bf1d61ea550ff6c883476a7570989b",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "product_photo_index": 58,
+      "label_photo_index": 47,
+      "observed_reference": "W-219H-1AVDF",
+      "observed_ean": "4549526294686",
+      "ean_checksum_valid": true,
+      "official_model": "W-219H-1AV",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.W-219H-1AV/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "caja/correa negras",
+        "leyendas blancas",
+        "LCD positivo"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/W/W2/W21/W-219H-1AV/assets/W-219H-1AV_Seq1.jpg",
+        "native_width": 500,
+        "native_height": 600,
+        "sha256": "9ac52f77a731f2eaf4303193cb820df806d2f2c7b37c04e191aec00782dcab5f",
+        "native_hd_size_pass": false
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones.",
+        "Encontrar original HD nativo; no ampliar el archivo de 500×600."
+      ]
+    },
+    {
+      "product_photo_index": 59,
+      "label_photo_index": 10,
+      "observed_reference": "W-219H-2A2VDF",
+      "observed_ean": "4549526313301",
+      "ean_checksum_valid": true,
+      "official_model": "W-219H-2A2V",
+      "source_page": "https://www.casio.com/intl/watches/casio/product.W-219H-2A2V/",
+      "comparison_result": "VISUAL_VARIANT_MATCH",
+      "observed_matching_attributes": [
+        "caja negra",
+        "correa azul brillante",
+        "LCD positivo"
+      ],
+      "physical_label_binding_confirmed": false,
+      "regional_reference_mapping_confirmed": false,
+      "confidence": null,
+      "auto_upload_allowed": false,
+      "status": "PENDIENTE_REVISION",
+      "catalog_candidate": {
+        "url": "https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/W/W2/W21/w-219h-2a2v/assets/W-219H-2A2V.png",
+        "native_width": 2000,
+        "native_height": 2000,
+        "sha256": "d45fef362665f20a03e866619d0c9bcf8619d2e175e996d7a8f0cdfec6e0a932",
+        "native_hd_size_pass": true
+      },
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    }
+  ],
+  "other_cases": [
+    {
+      "photo_index": 1,
+      "reference": "GA-700-1BDR",
+      "result": "PREVIOUS_VISUAL_MATCH_NO_NATIVE_HD",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false
+    },
+    {
+      "photo_index": 2,
+      "reference": "GD-100-1BDR",
+      "result": "PREVIOUS_VISUAL_MATCH_NO_NATIVE_HD",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false
+    },
+    {
+      "photo_index": 5,
+      "reference": "MCW-200H-9AVDF",
+      "result": "PREVIOUS_VISUAL_MATCH_NO_NATIVE_HD",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false
+    },
+    {
+      "photo_index": 18,
+      "box_model": "CT2 Pro Series 3",
+      "observed_upc_candidate": "850044396191",
+      "result": "PENDING_EXACT_COLOR_AND_LABEL_TEXT",
+      "note": "La referencia de la etiqueta está tapada y el reloj tiene marco rosado; no asignar el color negro por la foto de caja.",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false
+    },
+    {
+      "photo_index": 22,
+      "observed_reference": "CT-AURA2-8",
+      "observed_upc": "850071934281",
+      "observed_color": "gris claro/plata",
+      "result": "LABEL_AND_PRODUCT_VISIBLE_PENDING_OFFICIAL_UPC_VARIANT",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "upc_checksum_valid": true
+    },
+    {
+      "photo_index": 39,
+      "brand": "CASIO G-SHOCK",
+      "observed_color": "verde",
+      "result": "NO_READABLE_EXACT_REFERENCE",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false
+    },
+    {
+      "photo_index": 44,
+      "observed_reference": "AQ-S820W-5AVDF",
+      "observed_ean": "4549526401282",
+      "result": "LABEL_WITHOUT_MATCHING_PRODUCT_PHOTO",
+      "note": "El reloj 46 es de diseño HDC-700, no el Tough Solar AQ-S820W de la etiqueta.",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false
+    },
+    {
+      "photo_index": 51,
+      "observed_reference": "CT-AURA2-5",
+      "observed_upc": "850071934274",
+      "observed_color": "rosa/rose gold",
+      "result": "LABEL_AND_PRODUCT_VISIBLE_PENDING_OFFICIAL_UPC_VARIANT",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "upc_checksum_valid": true
+    },
+    {
+      "photo_index": 56,
+      "observed_reference": "CT-VIVA2-1",
+      "observed_upc": "850071934151",
+      "observed_color": "negro",
+      "result": "LABEL_AND_PRODUCT_VISIBLE_PENDING_OFFICIAL_UPC_VARIANT",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "upc_checksum_valid": true
+    },
+    {
+      "photo_index": 62,
+      "box_model": "Aura 2",
+      "result": "BOX_ONLY_NO_UNIQUE_IDENTIFIER",
+      "note": "No se usa como prueba de la variante ni como imagen de catálogo.",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false
+    }
+  ],
+  "cubitt_official_pages": [
+    "https://cubittofficial.com/products/aura-2",
+    "https://cubittofficial.com/products/viva-2"
+  ],
+  "confidence_note": "No se asigna score de autorización a pares con vínculo físico/EAN externo aún sin confirmar."
+}
