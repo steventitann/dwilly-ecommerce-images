@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-08",
+  "jobs": [
+    {
+      "job_id": "0433a4bc12f33cd7f54301df",
+      "manifest": "watch-ready/jobs/0433a4bc12f33cd7f54301df/manifest.json",
+      "reference": "GBA-900UU-5ADR",
+      "identifier": "4549526322709",
+      "identifier_type": "EAN13",
+      "image_count": 1,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "1ae9db1311355df4a7d9fe76",
+      "manifest": "watch-ready/jobs/1ae9db1311355df4a7d9fe76/manifest.json",
+      "reference": "CT-VIVA2-1",
+      "identifier": "850071934151",
+      "identifier_type": "UPC-A",
+      "image_count": 3,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "217a9d58dc462e9b2292b729",
+      "manifest": "watch-ready/jobs/217a9d58dc462e9b2292b729/manifest.json",
+      "reference": "CT-AURA2-8",
+      "identifier": "850071934281",
+      "identifier_type": "UPC-A",
+      "image_count": 3,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "3426e9deddf30a9f86ea5370",
+      "manifest": "watch-ready/jobs/3426e9deddf30a9f86ea5370/manifest.json",
+      "reference": "ECB-2300HR-1ADR",
+      "identifier": "4549526415999",
+      "identifier_type": "EAN13",
+      "image_count": 1,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "90af3c48e8f79c73e4527043",
+      "manifest": "watch-ready/jobs/90af3c48e8f79c73e4527043/manifest.json",
+      "reference": "CT-AURA2-5",
+      "identifier": "850071934274",
+      "identifier_type": "UPC-A",
+      "image_count": 3,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "e2bd4606761b1057989e335c",
+      "manifest": "watch-ready/jobs/e2bd4606761b1057989e335c/manifest.json",
+      "reference": "MCW-200H-9AVDF",
+      "identifier": "4549526174933",
+      "identifier_type": "EAN13",
+      "image_count": 1,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    }
+  ]
+}

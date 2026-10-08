@@ -68,8 +68,12 @@ def optimize(original, target):
 
 def barcode_file(identity, directory):
     import barcode
+    from .policy import valid_upc, ReviewRequired
     ean = identity.get('ean')
-    value = ean or identity.get('code') or identity['reference']
-    cls = barcode.get_barcode_class('ean13' if ean else 'code128')
+    upc = identity.get('upc')
+    if upc and (ean or not valid_upc(upc) or identity.get('code') != upc):
+        raise ReviewRequired('UPC inválido o código inconsistente')
+    value = ean or upc or identity.get('code') or identity['reference']
+    cls = barcode.get_barcode_class('ean13' if ean else 'upc' if upc else 'code128')
     path = cls(value).save(str(directory / 'barcode'))
-    return {'value': value, 'format': 'EAN13' if ean else 'CODE128', 'file': 'barcode.svg'}
+    return {'value': value, 'format': 'EAN13' if ean else 'UPC-A' if upc else 'CODE128', 'file': 'barcode.svg'}

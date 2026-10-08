@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "job_id": "1ae9db1311355df4a7d9fe76",
+  "prepared_at": "2026-10-08T14:52:28.417724+00:00",
+  "status": "READY_FOR_ANTIGRAVITY",
+  "identity": {
+    "ean": null,
+    "upc": "850071934151",
+    "reference": "CT-VIVA2-1",
+    "code": "850071934151",
+    "brand": "CUBITT",
+    "model": "VIVA 2",
+    "color": "Obsidian Black",
+    "dial": "pantalla AMOLED rectangular",
+    "bracelet": "silicona Obsidian Black"
+  },
+  "confidence": 0.97,
+  "confidence_method": "minimum_reviewed_evidence_score",
+  "review_mode": "interactive_visual_and_web_review",
+  "barcode": {
+    "value": "850071934151",
+    "format": "UPC-A",
+    "file": "barcode.svg"
+  },
+  "inventory_match": {
+    "status": "ANTIGRAVITY_MUST_MATCH",
+    "matched_by": null,
+    "codes": []
+  },
+  "sources": [
+    {
+      "url": "https://cubittofficial.com/products/viva-2.json",
+      "upc": "850071934151",
+      "reference": "CT-VIVA2-1",
+      "brand": "CUBITT",
+      "page_read": true,
+      "verification_method": "official_product_json_variant_read_2026-10-08"
+    },
+    {
+      "url": "https://rodelag.com/collections/cubitt/products/reloj-inteligente-1-85-viva-gen2-cubitt-bluetooth-3atm-negro",
+      "upc": "850071934151",
+      "reference": "CT-VIVA2-1",
+      "brand": "CUBITT",
+      "page_read": true,
+      "verification_method": "opened_web_reader_2026-10-08"
+    }
+  ],
+  "official_reference_mapping": {
+    "reference": "CT-VIVA2-1",
+    "model": "VIVA 2",
+    "brand": "CUBITT",
+    "url": "https://cubittofficial.com/products/viva-2?variant=47185324671191",
+    "reviewed": true,
+    "confidence": 0.97,
+    "method": "UPC y referencia visibles junto al reloj, SKU/barcode/variante en JSON oficial y fuente independiente.",
+    "note": "La pantalla del reloj recibido muestra el logo de arranque; la carátula del catálogo es configurable. Se comparan forma de pantalla, caja, corona, botones, color y correa."
+  },
+  "exact_evidence": {
+    "kind": "upc",
+    "observed_value": "850071934151",
+    "visible_in_photo": true,
+    "page_verified": true
+  },
+  "visual_validation": {
+    "original_readable": true,
+    "identity_confidence": 0.98,
+    "images": [
+      {
+        "order": 1,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "image_usable": true,
+        "confidence": 0.97
+      },
+      {
+        "order": 2,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "image_usable": true,
+        "confidence": 0.97
+      },
+      {
+        "order": 3,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "image_usable": true,
+        "confidence": 0.97
+      }
+    ]
+  },
+  "images": [
+    {
+      "sha256": "f57681ef678fd434326cb6bce312de5f9be58487b87da3ca92696e78d8a026aa",
+      "source_sha256": "76658c00da56e79e1008ccc7b857de68a5245aaaf26bcc56a7d592426e861c70",
+      "source_width": 1000,
+      "source_height": 1000,
+      "width": 1000,
+      "height": 1000,
+      "bytes": 24586,
+      "order": 1,
+      "role": "principal",
+      "path": "watch-ready/jobs/1ae9db1311355df4a7d9fe76/850071934151_01.webp",
+      "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/watch-ready/jobs/1ae9db1311355df4a7d9fe76/850071934151_01.webp",
+      "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1.webp?v=1758819181",
+      "source_page": "https://cubittofficial.com/products/viva-2?variant=47185324671191"
+    },
+    {
+      "sha256": "95786d46aab25f1556beba98a8fc0d6b6a3131997c920d02fd9d18d2a97b3772",
+      "source_sha256": "642b0891e99cfcc22c4212755b758e654d1cf8c3ded17e7e5a13bee36c190242",
+      "source_width": 1000,
+      "source_height": 1000,
+      "width": 1000,
+      "height": 1000,
+      "bytes": 47726,
+      "order": 2,
+      "role": "secundaria",
+      "path": "watch-ready/jobs/1ae9db1311355df4a7d9fe76/850071934151_02.webp",
+      "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/watch-ready/jobs/1ae9db1311355df4a7d9fe76/850071934151_02.webp",
+      "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1-1.webp?v=1758819181",
+      "source_page": "https://cubittofficial.com/products/viva-2?variant=47185324671191"
+    },
+    {
+      "sha256": "c84e3e82a7690c3269004b445ea1b83453fc6efc744dfa271e135984cc9a5beb",
+      "source_sha256": "177d2450c25f0c7b670f49be2a7e7dfc3f982b0b5c38b3205b5877e2bf365f5f",
+      "source_width": 1000,
+      "source_height": 1000,
+      "width": 1000,
+      "height": 1000,
+      "bytes": 20774,
+      "order": 3,
+      "role": "secundaria",
+      "path": "watch-ready/jobs/1ae9db1311355df4a7d9fe76/850071934151_03.webp",
+      "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/watch-ready/jobs/1ae9db1311355df4a7d9fe76/850071934151_03.webp",
+      "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1-2.webp?v=1758819181",
+      "source_page": "https://cubittofficial.com/products/viva-2?variant=47185324671191"
+    }
+  ],
+  "allowed_changes": [
+    "photo",
+    "gallery"
+  ],
+  "ecommerce_uploaded": false,
+  "official_variant": {
+    "id": 47185324671191,
+    "title": "Obsidian Black",
+    "sku": "CT-VIVA2-1",
+    "barcode": "850071934151",
+    "featured_image": null,
+    "image_urls": [
+      "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1.webp?v=1758819181",
+      "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1-1.webp?v=1758819181",
+      "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1-2.webp?v=1758819181"
+    ]
+  }
+}

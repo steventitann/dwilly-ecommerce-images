@@ -16,6 +16,12 @@ def valid_ean(value):
     check = (10 - sum(int(n) * (1 if i % 2 == 0 else 3) for i, n in enumerate(value[:12])) % 10) % 10
     return check == int(value[-1])
 
+def valid_upc(value):
+    value = str(value or '')
+    if not re.fullmatch(r'\d{12}', value):
+        return False
+    return (sum(int(n) for n in value[::2]) * 3 + sum(int(n) for n in value[1::2])) % 10 == 0
+
 def https_url(value):
     p = urlparse(value)
     return p.scheme == 'https' and bool(p.hostname) and not p.username and not p.password

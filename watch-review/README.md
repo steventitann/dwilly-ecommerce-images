@@ -1,5 +1,7 @@
 # Corroboración de fotografías recibidas
 
+Actualización del 8 de octubre: [estado completo](status-2026-10-08.json), [nuevas evidencias aprobadas](approved-2026-10-08.json) e [índice para Antigravity](../watch-ready/index.json). Hay 6 productos READY con 12 imágenes; quedan 56 fotos pendientes. Los informes del 6 y 7 de octubre son históricos. Se aprobaron MCW-200H-9AVDF y Cubitt CT-AURA2-8, CT-AURA2-5 y CT-VIVA2-1 después de nuevas comprobaciones de código, variante y HD nativo.
+
 Actualización del 7 de octubre: [contraste detallado](CONTRAST-2026-10-07.md) y [registro estructurado](contrast-2026-10-07.json). Se contabilizan las 60 fotos pendientes: 25 pares contrastados (24 variantes visualmente compatibles y 1 parcial) más 10 casos adicionales. Se corrigieron cuatro asociaciones candidatas de W-219HC y HDC-700; la etiqueta AQ-S820W queda sin foto coincidente. El resultado visual no confirma el vínculo físico de etiquetas separadas ni habilita una carga. Este registro posterior prevalece sobre las asociaciones tentativas del informe inicial.
 
 Se inspeccionaron visualmente las 62 fotos de Drive el 6 de octubre de 2026. El registro JSON conserva 31 transcripciones iniciales de etiquetas. Se omiten IDs de Drive, nombres de archivos y asociaciones privadas. Las fotos originales se mantienen privadas porque incluyen etiquetas comerciales y personas.

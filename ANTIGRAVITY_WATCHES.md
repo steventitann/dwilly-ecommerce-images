@@ -20,6 +20,8 @@ Cada `watch-ready/jobs/<job_id>/manifest.json` incluye identidad, EAN/referencia
 
 ## Integración
 
+Los paquetes Cubitt revisados el 8 de octubre conservan UPC-A de 12 dígitos en `identity.upc` y `identity.code`, con `identity.ean=null`. Buscar ese código exacto sin anteponer cero ni convertirlo en EAN. El SVG de estos paquetes es UPC-A. Su referencia CT-AURA2/CT-VIVA2 y color están corroborados en la variante oficial del fabricante y una fuente independiente.
+
 1. Obtener el estado **actual** de productos del ecommerce y buscar EAN exacto primero (también en `code`), luego `code` exacto. La referencia fabricante solo sirve como code si realmente está guardada como code exacto; no hacer matching aproximado por descripción. Si no existe producto exacto, omitirlo y registrar NOT_FOUND.
 2. Verificar marca, modelo y variante/color contra descripción y metadatos actuales. Si varios registros comparten el identificador, verificar que son el mismo producto en distintas sucursales; conservar todos sus stocks y precios individuales.
 3. Crear respaldo privado de `photo` y `gallery` y un dry run. Comprobar hashes de cada archivo antes de subir. Reutilizar almacenamiento actual. Usar nombres versionados por hash para evitar cachés y colisiones.

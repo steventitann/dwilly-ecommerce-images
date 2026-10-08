@@ -1,0 +1,18 @@
+{
+  "job_id": "217a9d58dc462e9b2292b729",
+  "events": [
+    {
+      "event": "reviewed_identity_confirmed"
+    },
+    {
+      "event": "native_hd_visual_match_confirmed"
+    },
+    {
+      "event": "webp_prepared",
+      "count": 3
+    },
+    {
+      "event": "ready_for_antigravity"
+    }
+  ]
+}

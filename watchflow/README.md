@@ -88,6 +88,8 @@ Si GitHub o Drive fallan después de preparar un paquete, la siguiente ejecució
 
 ## Contrato para Antigravity
 
+El preparador de expedientes revisados también admite Cubitt con UPC-A válido de 12 dígitos: conserva `ean=null`, `upc` y `code` exactos. Requiere reloj/etiqueta visibles juntos, dos dominios independientes y variante oficial con SKU, barcode, color e imágenes exactas. No convierte UPC en EAN. Esta validación se aplica a expedientes revisados; no se ha ampliado el esquema del analista autónomo para deducir UPC.
+
 Lee [ANTIGRAVITY_WATCHES.md](../ANTIGRAVITY_WATCHES.md). Consumir `watch-ready/jobs/*/manifest.json`; no importar imágenes candidatas ni fotos originales. Cada job representa una foto/version y puede apuntar al mismo producto que otro job: deduplicar por identificador exacto y SHA-256 antes de cargar.
 
 ## Comprobaciones

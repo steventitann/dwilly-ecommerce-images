@@ -1,0 +1,356 @@
+[
+  {
+    "identity": {
+      "ean": null,
+      "upc": "850071934281",
+      "reference": "CT-AURA2-8",
+      "code": "850071934281",
+      "brand": "CUBITT",
+      "model": "AURA 2",
+      "color": "Light Gray",
+      "dial": "pantalla AMOLED circular",
+      "bracelet": "silicona Light Gray"
+    },
+    "label_and_product_in_same_photo": true,
+    "identity_confidence": 0.98,
+    "identity_sources": [
+      {
+        "url": "https://cubittofficial.com/products/aura-2.json",
+        "upc": "850071934281",
+        "reference": "CT-AURA2-8",
+        "brand": "CUBITT",
+        "page_read": true,
+        "verification_method": "official_product_json_variant_read_2026-10-08"
+      },
+      {
+        "url": "https://rodelag.com/products/reloj-inteligente-aura-ct-aura2-8-cubitt-color-gris-gen2",
+        "upc": "850071934281",
+        "reference": "CT-AURA2-8",
+        "brand": "CUBITT",
+        "page_read": true,
+        "verification_method": "opened_web_reader_2026-10-08"
+      }
+    ],
+    "official_mapping": {
+      "reference": "CT-AURA2-8",
+      "model": "AURA 2",
+      "brand": "CUBITT",
+      "url": "https://cubittofficial.com/products/aura-2?variant=47185391321303",
+      "reviewed": true,
+      "confidence": 0.97,
+      "method": "UPC y referencia visibles junto al reloj, SKU/barcode/variante en JSON oficial y fuente independiente.",
+      "note": "La pantalla del reloj recibido muestra el logo de arranque; la carátula del catálogo es configurable. Se comparan forma de pantalla, caja, corona, botones, color y correa."
+    },
+    "official_variant": {
+      "id": 47185391321303,
+      "title": "Light Gray",
+      "sku": "CT-AURA2-8",
+      "barcode": "850071934281",
+      "featured_image": null,
+      "image_urls": [
+        "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-8.webp?v=1763493697",
+        "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-8-1.webp?v=1763493697",
+        "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-8-2.webp?v=1763493697"
+      ]
+    },
+    "images": [
+      {
+        "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-8.webp?v=1763493697",
+        "source_page": "https://cubittofficial.com/products/aura-2?variant=47185391321303",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.97
+      },
+      {
+        "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-8-1.webp?v=1763493697",
+        "source_page": "https://cubittofficial.com/products/aura-2?variant=47185391321303",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.97
+      },
+      {
+        "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-8-2.webp?v=1763493697",
+        "source_page": "https://cubittofficial.com/products/aura-2?variant=47185391321303",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.97
+      }
+    ]
+  },
+  {
+    "identity": {
+      "ean": null,
+      "upc": "850071934274",
+      "reference": "CT-AURA2-5",
+      "code": "850071934274",
+      "brand": "CUBITT",
+      "model": "AURA 2",
+      "color": "Rose Gold",
+      "dial": "pantalla AMOLED circular",
+      "bracelet": "silicona Rose Gold"
+    },
+    "label_and_product_in_same_photo": true,
+    "identity_confidence": 0.98,
+    "identity_sources": [
+      {
+        "url": "https://cubittofficial.com/products/aura-2.json",
+        "upc": "850071934274",
+        "reference": "CT-AURA2-5",
+        "brand": "CUBITT",
+        "page_read": true,
+        "verification_method": "official_product_json_variant_read_2026-10-08"
+      },
+      {
+        "url": "https://rodelag.com/products/reloj-inteligente-aura-ct-aura2-5-cubitt-rosado-gold-gen2",
+        "upc": "850071934274",
+        "reference": "CT-AURA2-5",
+        "brand": "CUBITT",
+        "page_read": true,
+        "verification_method": "opened_web_reader_2026-10-08"
+      }
+    ],
+    "official_mapping": {
+      "reference": "CT-AURA2-5",
+      "model": "AURA 2",
+      "brand": "CUBITT",
+      "url": "https://cubittofficial.com/products/aura-2?variant=47185391288535",
+      "reviewed": true,
+      "confidence": 0.97,
+      "method": "UPC y referencia visibles junto al reloj, SKU/barcode/variante en JSON oficial y fuente independiente.",
+      "note": "La pantalla del reloj recibido muestra el logo de arranque; la carátula del catálogo es configurable. Se comparan forma de pantalla, caja, corona, botones, color y correa."
+    },
+    "official_variant": {
+      "id": 47185391288535,
+      "title": "Rose Gold",
+      "sku": "CT-AURA2-5",
+      "barcode": "850071934274",
+      "featured_image": null,
+      "image_urls": [
+        "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-5.webp?v=1763493697",
+        "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-5-1.webp?v=1763493697",
+        "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-5-2.webp?v=1763493697"
+      ]
+    },
+    "images": [
+      {
+        "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-5.webp?v=1763493697",
+        "source_page": "https://cubittofficial.com/products/aura-2?variant=47185391288535",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.97
+      },
+      {
+        "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-5-1.webp?v=1763493697",
+        "source_page": "https://cubittofficial.com/products/aura-2?variant=47185391288535",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.97
+      },
+      {
+        "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-AURA2-5-2.webp?v=1763493697",
+        "source_page": "https://cubittofficial.com/products/aura-2?variant=47185391288535",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.97
+      }
+    ]
+  },
+  {
+    "identity": {
+      "ean": null,
+      "upc": "850071934151",
+      "reference": "CT-VIVA2-1",
+      "code": "850071934151",
+      "brand": "CUBITT",
+      "model": "VIVA 2",
+      "color": "Obsidian Black",
+      "dial": "pantalla AMOLED rectangular",
+      "bracelet": "silicona Obsidian Black"
+    },
+    "label_and_product_in_same_photo": true,
+    "identity_confidence": 0.98,
+    "identity_sources": [
+      {
+        "url": "https://cubittofficial.com/products/viva-2.json",
+        "upc": "850071934151",
+        "reference": "CT-VIVA2-1",
+        "brand": "CUBITT",
+        "page_read": true,
+        "verification_method": "official_product_json_variant_read_2026-10-08"
+      },
+      {
+        "url": "https://rodelag.com/collections/cubitt/products/reloj-inteligente-1-85-viva-gen2-cubitt-bluetooth-3atm-negro",
+        "upc": "850071934151",
+        "reference": "CT-VIVA2-1",
+        "brand": "CUBITT",
+        "page_read": true,
+        "verification_method": "opened_web_reader_2026-10-08"
+      }
+    ],
+    "official_mapping": {
+      "reference": "CT-VIVA2-1",
+      "model": "VIVA 2",
+      "brand": "CUBITT",
+      "url": "https://cubittofficial.com/products/viva-2?variant=47185324671191",
+      "reviewed": true,
+      "confidence": 0.97,
+      "method": "UPC y referencia visibles junto al reloj, SKU/barcode/variante en JSON oficial y fuente independiente.",
+      "note": "La pantalla del reloj recibido muestra el logo de arranque; la carátula del catálogo es configurable. Se comparan forma de pantalla, caja, corona, botones, color y correa."
+    },
+    "official_variant": {
+      "id": 47185324671191,
+      "title": "Obsidian Black",
+      "sku": "CT-VIVA2-1",
+      "barcode": "850071934151",
+      "featured_image": null,
+      "image_urls": [
+        "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1.webp?v=1758819181",
+        "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1-1.webp?v=1758819181",
+        "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1-2.webp?v=1758819181"
+      ]
+    },
+    "images": [
+      {
+        "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1.webp?v=1758819181",
+        "source_page": "https://cubittofficial.com/products/viva-2?variant=47185324671191",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.97
+      },
+      {
+        "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1-1.webp?v=1758819181",
+        "source_page": "https://cubittofficial.com/products/viva-2?variant=47185324671191",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.97
+      },
+      {
+        "source_url": "https://cdn.shopify.com/s/files/1/0277/6449/0288/files/CT-VIVA2-1-2.webp?v=1758819181",
+        "source_page": "https://cubittofficial.com/products/viva-2?variant=47185324671191",
+        "native_original": true,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "confidence": 0.97
+      }
+    ]
+  },
+  {
+    "identity": {
+      "ean": "4549526174933",
+      "reference": "MCW-200H-9AVDF",
+      "code": null,
+      "brand": "CASIO",
+      "model": "MCW-200H-9AV",
+      "color": "negro/dorado",
+      "dial": "negra y dorada; cronógrafo retrógrado; tres subesferas; fecha",
+      "bracelet": "resina negra"
+    },
+    "label_and_product_in_same_photo": true,
+    "identity_confidence": 0.98,
+    "identity_sources": [
+      {
+        "url": "https://www.trendyol.com/casio/mcw-200h-9avdf-erkek-kol-saati-p-2668433",
+        "ean": "4549526174933",
+        "reference": "MCW-200H-9AVDF",
+        "brand": "CASIO",
+        "page_read": true,
+        "verification_method": "opened_web_reader_2026-10-08"
+      },
+      {
+        "url": "https://www.ebay.com/itm/115921864717",
+        "ean": "4549526174933",
+        "reference": "MCW-200H-9AVDF",
+        "brand": "CASIO",
+        "page_read": true,
+        "verification_method": "opened_web_reader_2026-10-08"
+      }
+    ],
+    "official_mapping": {
+      "reference": "MCW-200H-9AVDF",
+      "model": "MCW-200H-9AV",
+      "brand": "CASIO",
+      "url": "https://www.casio.com/ph/watches/casio/product.MCW-200H-9AV/",
+      "reviewed": true,
+      "confidence": 0.97,
+      "method": "Etiqueta completa y EAN junto al reloj; dos fuentes exactas; esfera, subesferas, colores y resina contrastados con original oficial de Filipinas."
+    },
+    "images": [
+      {
+        "source_url": "https://www.casio.com/content/dam/casio/product-info/locales/ph/en/timepiece/product/watch/M/MC/MCW/MCW-200H-9AV/assets/MCW-200H-9AV.png",
+        "source_page": "https://www.casio.com/ph/watches/casio/product.MCW-200H-9AV/",
+        "native_original": true,
+        "confidence": 0.98,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        }
+      }
+    ]
+  }
+]

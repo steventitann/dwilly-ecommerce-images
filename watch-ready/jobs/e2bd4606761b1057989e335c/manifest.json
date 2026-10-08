@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "job_id": "e2bd4606761b1057989e335c",
+  "prepared_at": "2026-10-08T14:52:31.553660+00:00",
+  "status": "READY_FOR_ANTIGRAVITY",
+  "identity": {
+    "ean": "4549526174933",
+    "reference": "MCW-200H-9AVDF",
+    "code": null,
+    "brand": "CASIO",
+    "model": "MCW-200H-9AV",
+    "color": "negro/dorado",
+    "dial": "negra y dorada; cronógrafo retrógrado; tres subesferas; fecha",
+    "bracelet": "resina negra"
+  },
+  "confidence": 0.97,
+  "confidence_method": "minimum_reviewed_evidence_score",
+  "review_mode": "interactive_visual_and_web_review",
+  "barcode": {
+    "value": "4549526174933",
+    "format": "EAN13",
+    "file": "barcode.svg"
+  },
+  "inventory_match": {
+    "status": "ANTIGRAVITY_MUST_MATCH",
+    "matched_by": null,
+    "codes": []
+  },
+  "sources": [
+    {
+      "url": "https://www.trendyol.com/casio/mcw-200h-9avdf-erkek-kol-saati-p-2668433",
+      "ean": "4549526174933",
+      "reference": "MCW-200H-9AVDF",
+      "brand": "CASIO",
+      "page_read": true,
+      "verification_method": "opened_web_reader_2026-10-08"
+    },
+    {
+      "url": "https://www.ebay.com/itm/115921864717",
+      "ean": "4549526174933",
+      "reference": "MCW-200H-9AVDF",
+      "brand": "CASIO",
+      "page_read": true,
+      "verification_method": "opened_web_reader_2026-10-08"
+    }
+  ],
+  "official_reference_mapping": {
+    "reference": "MCW-200H-9AVDF",
+    "model": "MCW-200H-9AV",
+    "brand": "CASIO",
+    "url": "https://www.casio.com/ph/watches/casio/product.MCW-200H-9AV/",
+    "reviewed": true,
+    "confidence": 0.97,
+    "method": "Etiqueta completa y EAN junto al reloj; dos fuentes exactas; esfera, subesferas, colores y resina contrastados con original oficial de Filipinas."
+  },
+  "exact_evidence": {
+    "kind": "ean",
+    "observed_value": "4549526174933",
+    "visible_in_photo": true,
+    "page_verified": true
+  },
+  "visual_validation": {
+    "original_readable": true,
+    "identity_confidence": 0.98,
+    "images": [
+      {
+        "order": 1,
+        "matches": {
+          "brand": true,
+          "model": true,
+          "reference": true,
+          "color": true,
+          "dial": true,
+          "bracelet": true
+        },
+        "image_usable": true,
+        "confidence": 0.98
+      }
+    ]
+  },
+  "images": [
+    {
+      "sha256": "d2fb8736c8599ef9f2bb921ef85b59d5a300459ca28b91005f82441d4f877b6b",
+      "source_sha256": "26de6d1f30202d8e4935efba9d2e2b16208d85c1401af82dfbea6207d074ac45",
+      "source_width": 2000,
+      "source_height": 2000,
+      "width": 1600,
+      "height": 1600,
+      "bytes": 282920,
+      "order": 1,
+      "role": "principal",
+      "path": "watch-ready/jobs/e2bd4606761b1057989e335c/4549526174933_01.webp",
+      "url": "https://raw.githubusercontent.com/steventitann/dwilly-ecommerce-images/main/watch-ready/jobs/e2bd4606761b1057989e335c/4549526174933_01.webp",
+      "source_url": "https://www.casio.com/content/dam/casio/product-info/locales/ph/en/timepiece/product/watch/M/MC/MCW/MCW-200H-9AV/assets/MCW-200H-9AV.png",
+      "source_page": "https://www.casio.com/ph/watches/casio/product.MCW-200H-9AV/"
+    }
+  ],
+  "allowed_changes": [
+    "photo",
+    "gallery"
+  ],
+  "ecommerce_uploaded": false
+}

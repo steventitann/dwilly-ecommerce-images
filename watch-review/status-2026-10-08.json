@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-08",
+  "scope": "GitHub preparation only; ecommerce integration by Antigravity",
+  "counts": {
+    "photos_total": 62,
+    "photos_ready": 6,
+    "photos_pending": 56,
+    "ready_jobs": 6,
+    "ready_images": 12,
+    "new_ready_jobs": 4,
+    "new_ready_images": 10
+  },
+  "jobs": [
+    {
+      "job_id": "0433a4bc12f33cd7f54301df",
+      "manifest": "watch-ready/jobs/0433a4bc12f33cd7f54301df/manifest.json",
+      "reference": "GBA-900UU-5ADR",
+      "identifier": "4549526322709",
+      "identifier_type": "EAN13",
+      "image_count": 1,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "1ae9db1311355df4a7d9fe76",
+      "manifest": "watch-ready/jobs/1ae9db1311355df4a7d9fe76/manifest.json",
+      "reference": "CT-VIVA2-1",
+      "identifier": "850071934151",
+      "identifier_type": "UPC-A",
+      "image_count": 3,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "217a9d58dc462e9b2292b729",
+      "manifest": "watch-ready/jobs/217a9d58dc462e9b2292b729/manifest.json",
+      "reference": "CT-AURA2-8",
+      "identifier": "850071934281",
+      "identifier_type": "UPC-A",
+      "image_count": 3,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "3426e9deddf30a9f86ea5370",
+      "manifest": "watch-ready/jobs/3426e9deddf30a9f86ea5370/manifest.json",
+      "reference": "ECB-2300HR-1ADR",
+      "identifier": "4549526415999",
+      "identifier_type": "EAN13",
+      "image_count": 1,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "90af3c48e8f79c73e4527043",
+      "manifest": "watch-ready/jobs/90af3c48e8f79c73e4527043/manifest.json",
+      "reference": "CT-AURA2-5",
+      "identifier": "850071934274",
+      "identifier_type": "UPC-A",
+      "image_count": 3,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    },
+    {
+      "job_id": "e2bd4606761b1057989e335c",
+      "manifest": "watch-ready/jobs/e2bd4606761b1057989e335c/manifest.json",
+      "reference": "MCW-200H-9AVDF",
+      "identifier": "4549526174933",
+      "identifier_type": "EAN13",
+      "image_count": 1,
+      "confidence": 0.97,
+      "status": "READY_FOR_ANTIGRAVITY"
+    }
+  ],
+  "pending": [
+    {
+      "photo_indices": [
+        7,
+        4
+      ],
+      "reference": "WS-1500H-3BVDF",
+      "identifier": "4549526374579",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        8,
+        27
+      ],
+      "reference": "MTP-1314D-2AVDF",
+      "identifier": "4971850930778",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        9,
+        42
+      ],
+      "reference": "AQ-S810W-1A3VDF",
+      "identifier": "4549526122439",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        11,
+        16
+      ],
+      "reference": "AEQ-120W-7AVDF",
+      "identifier": "4549526396069",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        12,
+        28
+      ],
+      "reference": "MTP-1314D-7AVDF",
+      "identifier": "4971850930792",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        13,
+        20
+      ],
+      "reference": "AE-1500WHX-1AVDF",
+      "identifier": "4549526324123",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        15,
+        38
+      ],
+      "reference": "AEQ-110W-1A2VDF",
+      "identifier": "4549526174629",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones.",
+        "Encontrar original HD nativo; no ampliar el archivo de 500×600."
+      ]
+    },
+    {
+      "photo_indices": [
+        17,
+        32
+      ],
+      "reference": "HDC-700-9AVDF",
+      "identifier": "4549526176456",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        21,
+        23
+      ],
+      "reference": "MRW-210H-3AVDF",
+      "identifier": "4549526322242",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        25,
+        61
+      ],
+      "reference": "AE-1000W-1AVDF",
+      "identifier": "4971850443339",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        26,
+        40
+      ],
+      "reference": "AEQ-110W-1BVDF",
+      "identifier": "4549526155857",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        29,
+        60
+      ],
+      "reference": "AE-1500WHX-3AVDF",
+      "identifier": "4549526324154",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        35,
+        49
+      ],
+      "reference": "AE-1500WH-8BVDF",
+      "identifier": "4549526296994",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        37,
+        14
+      ],
+      "reference": "W-219HC-8BVDF",
+      "identifier": "4549526358647",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        41,
+        33
+      ],
+      "reference": "HDC-700-1AVDF",
+      "identifier": "4549526176395",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        43,
+        30
+      ],
+      "reference": "W-219H-4AVDF",
+      "identifier": "4549526313332",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        46,
+        50
+      ],
+      "reference": "HDC-700-3A3VDF",
+      "identifier": "4549526222924",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        48,
+        36
+      ],
+      "reference": "LTP-1303D-4AVDF",
+      "identifier": "4971850446200",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        52,
+        24
+      ],
+      "reference": "W-219HC-2BVDF",
+      "identifier": "4549526358586",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        53,
+        31
+      ],
+      "reference": "F-200W-1ADF",
+      "identifier": "4971850746096",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Confirmar color de correa: el original oficial parece verde oscuro; la foto recibida parece negra.",
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        54,
+        45
+      ],
+      "reference": "AE-1000W-3AVDF",
+      "identifier": "4549526112065",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        55,
+        34
+      ],
+      "reference": "LTP-VT01GL-4BUDF",
+      "identifier": "4549526286087",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones.",
+        "Encontrar original HD nativo; no ampliar el archivo de 500×600."
+      ]
+    },
+    {
+      "photo_indices": [
+        57,
+        19
+      ],
+      "reference": "HDC-700-3A2VDF",
+      "identifier": "4549526222894",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        58,
+        47
+      ],
+      "reference": "W-219H-1AVDF",
+      "identifier": "4549526294686",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones.",
+        "Encontrar original HD nativo; no ampliar el archivo de 500×600."
+      ]
+    },
+    {
+      "photo_indices": [
+        59,
+        10
+      ],
+      "reference": "W-219H-2A2VDF",
+      "identifier": "4549526313301",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "remaining_checks": [
+        "Vincular inequívocamente el reloj fotografiado con su etiqueta separada.",
+        "Corroborar EAN y referencia regional completa en fuentes exactas.",
+        "Emitir expediente READY solo después de todas las validaciones."
+      ]
+    },
+    {
+      "photo_indices": [
+        1
+      ],
+      "reference": "GA-700-1BDR",
+      "identifier": null,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "reason": "PREVIOUS_VISUAL_MATCH_NO_NATIVE_HD"
+    },
+    {
+      "photo_indices": [
+        2
+      ],
+      "reference": "GD-100-1BDR",
+      "identifier": null,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "reason": "PREVIOUS_VISUAL_MATCH_NO_NATIVE_HD"
+    },
+    {
+      "photo_indices": [
+        18
+      ],
+      "reference": null,
+      "identifier": "850044396191",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "reason": "PENDING_EXACT_COLOR_AND_LABEL_TEXT"
+    },
+    {
+      "photo_indices": [
+        39
+      ],
+      "reference": null,
+      "identifier": null,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "reason": "NO_READABLE_EXACT_REFERENCE"
+    },
+    {
+      "photo_indices": [
+        44
+      ],
+      "reference": "AQ-S820W-5AVDF",
+      "identifier": "4549526401282",
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "reason": "LABEL_WITHOUT_MATCHING_PRODUCT_PHOTO"
+    },
+    {
+      "photo_indices": [
+        62
+      ],
+      "reference": null,
+      "identifier": null,
+      "status": "PENDIENTE_REVISION",
+      "auto_upload_allowed": false,
+      "reason": "BOX_ONLY_NO_UNIQUE_IDENTIFIER"
+    }
+  ],
+  "all_photos_accounted_for": true,
+  "ecommerce_uploaded": false,
+  "drive_counts": {
+    "verification": "See subsequent Drive move receipt; counts here describe GitHub preparation."
+  },
+  "notes": [
+    "Tres Cubitt confirmados por UPC/SKU en JSON oficial y Rodelag; tres vistas por variante.",
+    "MCW-200H confirmado por etiqueta, Trendyol y eBay, con original nativo oficial Filipinas 2000×2000.",
+    "eBay titula UPC al código de 13 dígitos MCW; se conserva como EAN13 según etiqueta/checksum, sin convertirlo.",
+    "GA-700/GD-100/W-219H negros: las nuevas fuentes oficiales inspeccionadas siguen en 500×600.",
+    "El UPC candidato CT2 Pro no figura entre los 80 productos del catálogo público oficial consultado.",
+    "El G-Shock verde tiene como candidato GA-010-2A por diseño; no se inventa referencia regional ni EAN sin etiqueta.",
+    "Confirmación de asociaciones físicas de los 25 pares solicitada; aún no recibida."
+  ]
+}
