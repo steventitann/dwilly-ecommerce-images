@@ -517,7 +517,10 @@
   "all_photos_accounted_for": true,
   "ecommerce_uploaded": false,
   "drive_counts": {
-    "verification": "See subsequent Drive move receipt; counts here describe GitHub preparation."
+    "NUEVAS": 0,
+    "PROCESADAS": 6,
+    "PENDIENTE_REVISION": 56,
+    "ERROR": 0
   },
   "notes": [
     "Tres Cubitt confirmados por UPC/SKU en JSON oficial y Rodelag; tres vistas por variante.",
@@ -527,5 +530,7 @@
     "El UPC candidato CT2 Pro no figura entre los 80 productos del catálogo público oficial consultado.",
     "El G-Shock verde tiene como candidato GA-010-2A por diseño; no se inventa referencia regional ni EAN sin etiqueta.",
     "Confirmación de asociaciones físicas de los 25 pares solicitada; aún no recibida."
-  ]
+  ],
+  "drive_moves_verified": 4,
+  "all_products_ready": false
 }

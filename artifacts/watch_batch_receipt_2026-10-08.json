@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-08",
+  "commit": "ef9918c159e3985919bf636ac061ed0948934f03",
+  "ready_jobs": 6,
+  "ready_images": 12,
+  "files_verified": 30,
+  "jobs": [
+    {
+      "job_id": "0433a4bc12f33cd7f54301df",
+      "files_verified": 4,
+      "result": "RAW_SHA256_VERIFIED"
+    },
+    {
+      "job_id": "1ae9db1311355df4a7d9fe76",
+      "files_verified": 6,
+      "result": "RAW_SHA256_VERIFIED"
+    },
+    {
+      "job_id": "217a9d58dc462e9b2292b729",
+      "files_verified": 6,
+      "result": "RAW_SHA256_VERIFIED"
+    },
+    {
+      "job_id": "3426e9deddf30a9f86ea5370",
+      "files_verified": 4,
+      "result": "RAW_SHA256_VERIFIED"
+    },
+    {
+      "job_id": "90af3c48e8f79c73e4527043",
+      "files_verified": 6,
+      "result": "RAW_SHA256_VERIFIED"
+    },
+    {
+      "job_id": "e2bd4606761b1057989e335c",
+      "files_verified": 4,
+      "result": "RAW_SHA256_VERIFIED"
+    }
+  ],
+  "ecommerce_uploaded": false,
+  "tests_passed": 16,
+  "drive_counts": {
+    "NUEVAS": 0,
+    "PROCESADAS": 6,
+    "PENDIENTE_REVISION": 56,
+    "ERROR": 0
+  },
+  "drive_moves_verified": 4,
+  "all_products_ready": false,
+  "pending_reason": "Confirmar pares etiqueta/reloj, color F-200W, códigos de casos sin etiqueta y fuentes HD restantes"
+}
