@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "job_id": "1ae9db1311355df4a7d9fe76",
+  "identifier": "850071934151",
+  "identifier_type": "UPC-A",
+  "reference": "CT-VIVA2-1",
+  "result": "UPDATED",
+  "images": {
+    "principal": "/product-images/850071934151_01_f57681ef.webp",
+    "gallery": [
+      "/product-images/850071934151_02_95786d46.webp",
+      "/product-images/850071934151_03_c84e3e82.webp"
+    ]
+  },
+  "matched_items_count": 2,
+  "stores": [
+    "SAN CRISTOBAL",
+    "SANTA CRUZ"
+  ],
+  "public_urls": [
+    "https://www.dwillygalapagos.com/catalogo/producto/850071934151",
+    "https://www.dwillygalapagos.com/catalogo/producto/850071934151"
+  ],
+  "processed_at": "2026-10-08T15:55:17.913Z"
+}

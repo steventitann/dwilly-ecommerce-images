@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "job_id": "0433a4bc12f33cd7f54301df",
+  "identifier": "4549526322709",
+  "identifier_type": "EAN13",
+  "reference": "GBA-900UU-5ADR",
+  "result": "UPDATED",
+  "images": {
+    "principal": "/product-images/4549526322709_01_025e6541.webp",
+    "gallery": []
+  },
+  "matched_items_count": 2,
+  "stores": [
+    "SAN CRISTOBAL",
+    "SANTA CRUZ"
+  ],
+  "public_urls": [
+    "https://www.dwillygalapagos.com/catalogo/producto/4549526322709",
+    "https://www.dwillygalapagos.com/catalogo/producto/4549526322709"
+  ],
+  "processed_at": "2026-10-08T15:55:16.382Z"
+}

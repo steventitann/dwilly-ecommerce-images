@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "job_id": "e2bd4606761b1057989e335c",
+  "identifier": "4549526174933",
+  "identifier_type": "EAN13",
+  "reference": "MCW-200H-9AVDF",
+  "result": "UPDATED",
+  "images": {
+    "principal": "/product-images/4549526174933_01_d2fb8736.webp",
+    "gallery": []
+  },
+  "matched_items_count": 2,
+  "stores": [
+    "SAN CRISTOBAL",
+    "SANTA CRUZ"
+  ],
+  "public_urls": [
+    "https://www.dwillygalapagos.com/catalogo/producto/4549526174933",
+    "https://www.dwillygalapagos.com/catalogo/producto/4549526174933"
+  ],
+  "processed_at": "2026-10-08T15:55:23.798Z"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "job_id": "3426e9deddf30a9f86ea5370",
+  "identifier": "4549526415999",
+  "identifier_type": "EAN13",
+  "reference": "ECB-2300HR-1ADR",
+  "result": "UPDATED",
+  "images": {
+    "principal": "/product-images/4549526415999_01_44b8464c.webp",
+    "gallery": []
+  },
+  "matched_items_count": 1,
+  "stores": [
+    "SANTA CRUZ"
+  ],
+  "public_urls": [
+    "https://www.dwillygalapagos.com/catalogo/producto/4549526415999"
+  ],
+  "processed_at": "2026-10-08T15:55:20.856Z"
+}

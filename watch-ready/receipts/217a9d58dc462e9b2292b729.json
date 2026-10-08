@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "job_id": "217a9d58dc462e9b2292b729",
+  "identifier": "850071934281",
+  "identifier_type": "UPC-A",
+  "reference": "CT-AURA2-8",
+  "result": "UPDATED",
+  "images": {
+    "principal": "/product-images/850071934281_01_62a2fb2c.webp",
+    "gallery": [
+      "/product-images/850071934281_02_833eef4f.webp",
+      "/product-images/850071934281_03_500f6216.webp"
+    ]
+  },
+  "matched_items_count": 2,
+  "stores": [
+    "SAN CRISTOBAL",
+    "SANTA CRUZ"
+  ],
+  "public_urls": [
+    "https://www.dwillygalapagos.com/catalogo/producto/850071934281",
+    "https://www.dwillygalapagos.com/catalogo/producto/850071934281"
+  ],
+  "processed_at": "2026-10-08T15:55:19.511Z"
+}
